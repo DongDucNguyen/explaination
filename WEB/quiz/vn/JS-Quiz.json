@@ -2,7 +2,12 @@
   {
     "id": 1,
     "question": "Chúng ta đặt JavaScript bên trong thẻ HTML nào?",
-    "options": ["<javascript>", "<script>", "<js>", "<scripting>"],
+    "options": [
+      "<javascript>",
+      "<script>",
+      "<js>",
+      "<scripting>"
+    ],
     "answer": "<script>"
   },
   {
@@ -39,7 +44,10 @@
   {
     "id": 5,
     "question": "File JavaScript external bắt buộc phải chứa thẻ <script>.",
-    "options": ["True (Đúng)", "False (Sai)"],
+    "options": [
+      "True (Đúng)",
+      "False (Sai)"
+    ],
     "answer": "False (Sai)"
   },
   {
@@ -120,7 +128,7 @@
     "id": 13,
     "question": "Làm thế nào bạn có thể thêm một chú thích (comment) trong JavaScript?",
     "options": [
-      "",
+      "<!--This is a comment-->",
       "//This is a comment",
       "'This is a comment"
     ],
@@ -131,7 +139,7 @@
     "question": "Làm thế nào để chèn một chú thích có nhiều hơn một dòng?",
     "options": [
       "/*This comment has\nmore than one line*/",
-      "",
+      "<!--This comment has more than one line-->",
       "//This comment has\nmore than one line//"
     ],
     "answer": "/*This comment has\nmore than one line*/"
@@ -181,43 +189,71 @@
   {
     "id": 19,
     "question": "JavaScript giống hệt với Java.",
-    "options": ["True (Đúng)", "False (Sai)"],
+    "options": [
+      "True (Đúng)",
+      "False (Sai)"
+    ],
     "answer": "False (Sai)"
   },
   {
     "id": 20,
     "question": "Từ khóa nào KHÔNG hợp lệ để khai báo một biến trong JavaScript?",
-    "options": ["constant", "var", "let"],
+    "options": [
+      "constant",
+      "var",
+      "let"
+    ],
     "answer": "constant"
   },
   {
     "id": 21,
     "question": "Sự kiện nào xảy ra khi người dùng click vào một phần tử HTML?",
-    "options": ["onchange", "onclick", "onmouseover", "onmouseclick"],
+    "options": [
+      "onchange",
+      "onclick",
+      "onmouseover",
+      "onmouseclick"
+    ],
     "answer": "onclick"
   },
   {
     "id": 22,
     "question": "Làm thế nào để khai báo một biến JavaScript?",
-    "options": ["v carName;", "var carName;", "variable carName;"],
+    "options": [
+      "v carName;",
+      "var carName;",
+      "variable carName;"
+    ],
     "answer": "var carName;"
   },
   {
     "id": 23,
     "question": "Toán tử nào được sử dụng để gán một giá trị cho một biến?",
-    "options": ["=", "-", "x", "*"],
+    "options": [
+      "=",
+      "-",
+      "x",
+      "*"
+    ],
     "answer": "="
   },
   {
     "id": 24,
     "question": "Đoạn code sau sẽ trả về gì: Boolean(10 > 9)",
-    "options": ["false", "true", "NaN"],
+    "options": [
+      "false",
+      "true",
+      "NaN"
+    ],
     "answer": "true"
   },
   {
     "id": 25,
     "question": "JavaScript có phân biệt chữ hoa chữ thường (case-sensitive) không?",
-    "options": ["Có", "Không"],
+    "options": [
+      "Có",
+      "Không"
+    ],
     "answer": "Có"
   }
 ]

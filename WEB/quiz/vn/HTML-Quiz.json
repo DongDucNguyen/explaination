@@ -222,7 +222,7 @@
   },
   {
     "id": 22,
-    "question": "Chú thích (comments) trong HTML bắt đầu bằng ",
+    "question": "Chú thích (comments) trong HTML bắt đầu bằng <!-- và kết thúc bằng -->",
     "options": [
       "True (Đúng)",
       "False (Sai)"

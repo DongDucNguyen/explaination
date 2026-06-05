@@ -128,7 +128,7 @@
     "id": 13,
     "question": "How can you add a comment in a JavaScript?",
     "options": [
-      "",
+      "<!--This is a comment-->",
       "//This is a comment",
       "'This is a comment"
     ],
@@ -139,7 +139,7 @@
     "question": "How to insert a comment that has more than one line?",
     "options": [
       "/*This comment has\nmore than one line*/",
-      "",
+      "<!--This comment has more than one line-->",
       "//This comment has\nmore than one line//"
     ],
     "answer": "/*This comment has\nmore than one line*/"

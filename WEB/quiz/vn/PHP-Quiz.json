@@ -165,7 +165,7 @@
     "id": 17,
     "question": "Cách chính xác để thêm một chú thích (comment) trong PHP là gì?",
     "options": [
-      "",
+      "<!--...-->",
       "<comment>...</comment>",
       "*\\...\\*",
       "/*...*/"

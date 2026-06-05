@@ -165,7 +165,7 @@
     "id": 17,
     "question": "What is a correct way to add a comment in PHP?",
     "options": [
-      "",
+      "<!--...-->",
       "<comment>...</comment>",
       "*\\...\\*",
       "/*...*/"
