@@ -53,7 +53,9 @@ const appState = {
   shuffleAnswers: true,
   quizData: [],
   currentQuestionIndex: 0,
-  userAnswers: {}
+  userAnswers: {},
+  timerInterval: null,
+  timeoutNext: null
 };
 
 const appContainer = document.getElementById('app');
@@ -207,9 +209,15 @@ const createQuizScreenContainer = () => {
   const container = document.createElement('div');
   container.className = 'glass-card';
   container.innerHTML = `
-    <div class="badge" id="quiz-badge"></div>
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 1rem;">
+      <div class="badge" id="quiz-badge" style="margin-bottom:0;"></div>
+      <button id="home-btn" class="btn-secondary" style="padding: 0.3rem 0.6rem; font-size: 0.85rem;">🏠 Home</button>
+    </div>
     <div class="progress-container">
       <div class="progress-bar" id="quiz-progress"></div>
+    </div>
+    <div class="timer-container" id="timer-container" style="display: none;">
+      <div class="timer-bar" id="timer-bar"></div>
     </div>
     <div class="question-text" id="question-text"></div>
     <div class="options-container" id="options-container"></div>
@@ -225,6 +233,15 @@ const updateQuizScreen = (container) => {
   const question = appState.quizData[current];
   const progressPercent = (current / total) * 100;
   let selectedOption = appState.userAnswers[current] || null;
+
+  container.querySelector('#home-btn').textContent = `🏠 ${t.backToHome}`;
+  container.querySelector('#home-btn').onclick = () => {
+    if (confirm('Bạn có chắc chắn muốn về trang chủ? Toàn bộ quá trình sẽ bị hủy bỏ!')) {
+      if (appState.timerInterval) clearInterval(appState.timerInterval);
+      if (appState.timeoutNext) clearTimeout(appState.timeoutNext);
+      initApp();
+    }
+  };
 
   container.querySelector('#quiz-badge').textContent = `${question.topic} - ${current + 1} / ${total}`;
   container.querySelector('#quiz-progress').style.width = `${progressPercent}%`;
@@ -272,6 +289,9 @@ const updateQuizScreen = (container) => {
       appState.userAnswers[current] = opt;
       newActionBtn.disabled = false;
 
+      if (appState.timerInterval) clearInterval(appState.timerInterval);
+      if (appState.timeoutNext) clearTimeout(appState.timeoutNext);
+
       if (isImmediateFeedback) {
         if (opt === question.answer) {
           btn.classList.add('correct');
@@ -290,8 +310,61 @@ const updateQuizScreen = (container) => {
     optionsContainer.appendChild(btn);
   });
 
+  // Setup Timer for Hardcore Mode
+  if (appState.timerInterval) clearInterval(appState.timerInterval);
+  if (appState.timeoutNext) clearTimeout(appState.timeoutNext);
+  
+  const timerContainer = container.querySelector('#timer-container');
+  const timerBar = container.querySelector('#timer-bar');
+
+  if (appState.mode === 'hardcore' && !selectedOption) {
+    timerContainer.style.display = 'block';
+    let timeLeft = 15;
+    timerBar.style.width = '100%';
+    timerBar.style.backgroundColor = 'var(--primary)';
+    
+    // Clear transition briefly to snap to 100% without animation
+    timerBar.style.transition = 'none';
+    setTimeout(() => {
+      timerBar.style.transition = 'width 0.1s linear, background-color 0.3s ease';
+    }, 50);
+
+    appState.timerInterval = setInterval(() => {
+      timeLeft -= 0.1;
+      const pct = (timeLeft / 15) * 100;
+      timerBar.style.width = `${pct}%`;
+      
+      if (pct <= 30 && timerBar.style.backgroundColor !== 'var(--error)') {
+        timerBar.style.backgroundColor = 'var(--error)';
+      }
+      
+      if (timeLeft <= 0) {
+        clearInterval(appState.timerInterval);
+        if (!selectedOption) {
+          selectedOption = 'TIMEOUT';
+          appState.userAnswers[current] = null;
+          
+          Array.from(optionsContainer.children).forEach(b => {
+            b.disabled = true;
+            if (b.textContent === question.answer) b.classList.add('correct');
+          });
+          newActionBtn.disabled = false;
+          
+          appState.timeoutNext = setTimeout(() => {
+            newActionBtn.click();
+          }, 2000);
+        }
+      }
+    }, 100);
+  } else {
+    timerContainer.style.display = 'none';
+  }
+
   newActionBtn.addEventListener('click', () => {
+    if (appState.timerInterval) clearInterval(appState.timerInterval);
+    if (appState.timeoutNext) clearTimeout(appState.timeoutNext);
     container.querySelector('#quiz-progress').style.width = `${((current + 1) / total) * 100}%`;
+    
     setTimeout(() => {
       if (current === total - 1) finishQuiz();
       else {
@@ -334,7 +407,7 @@ const renderResultScreen = () => {
 
   appState.quizData.forEach((q, index) => {
     container.querySelector(`#review-q-${index}`).textContent = q.question;
-    container.querySelector(`#review-u-${index}`).textContent = appState.userAnswers[index] || 'N/A';
+    container.querySelector(`#review-u-${index}`).textContent = appState.userAnswers[index] || 'TIMEOUT / Không trả lời';
     if (appState.userAnswers[index] !== q.answer) {
       container.querySelector(`#review-c-${index}`).textContent = q.answer;
     }
@@ -403,6 +476,8 @@ const initApp = () => {
   appState.quizData = [];
   appState.currentQuestionIndex = 0;
   appState.userAnswers = {};
+  if (appState.timerInterval) clearInterval(appState.timerInterval);
+  if (appState.timeoutNext) clearTimeout(appState.timeoutNext);
   render(renderSetupScreen());
 };
 
