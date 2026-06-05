@@ -5,7 +5,8 @@
     "options": [
       "X-Markup Language",
       "Example Markup Language",
-      "eXtra Modern Link"
+      "eXtra Modern Link",
+      "eXtensible Markup Language"
     ],
     "answer": "eXtensible Markup Language"
   },
@@ -14,7 +15,8 @@
     "question": "There is a way of describing XML data, how?",
     "options": [
       "XML uses a description node to describe data",
-      "XML uses XSL to describe data"
+      "XML uses XSL to describe data",
+      "XML uses a DTD to describe the data"
     ],
     "answer": "XML uses a DTD to describe the data"
   },
@@ -22,7 +24,8 @@
     "id": 3,
     "question": "XML's goal is to replace HTML",
     "options": [
-      "True"
+      "True",
+      "False"
     ],
     "answer": "False"
   },
@@ -31,6 +34,7 @@
     "question": "What is the correct syntax of the declaration which defines the XML version?",
     "options": [
       "<xml version=\"1.0\" />",
+      "<?xml version=\"1.0\"?>",
       "<?xml version=\"1.0\" />"
     ],
     "answer": "<?xml version=\"1.0\"?>"
@@ -41,7 +45,8 @@
     "options": [
       "Direct Type Definition",
       "Do The Dance",
-      "Dynamic Type Definition"
+      "Dynamic Type Definition",
+      "Document Type Definition"
     ],
     "answer": "Document Type Definition"
   },
@@ -49,7 +54,8 @@
     "id": 6,
     "question": "Is this a \"well formed\" XML document?\n\n<?xml version=\"1.0\"?>\n<note>\n<to>Tove</to>\n<from>Jani</from>\n<heading>Reminder</heading>\n<body>Don't forget me this weekend!</body>\n</note>",
     "options": [
-      "No"
+      "No",
+      "Yes"
     ],
     "answer": "Yes"
   },
@@ -57,7 +63,8 @@
     "id": 7,
     "question": "Is this a \"well formed\" XML document?\n\n<?xml version=\"1.0\"?>\n<to>Tove</to>\n<from>Jani</from>\n<heading>Reminder</heading>\n<body>Don't forget me this weekend!</body>",
     "options": [
-      "Yes"
+      "Yes",
+      "No"
     ],
     "answer": "No"
   },
@@ -67,7 +74,8 @@
     "options": [
       "All the statements are true",
       "All XML elements must be lower case",
-      "All XML documents must have a DTD"
+      "All XML documents must have a DTD",
+      "All XML elements must be properly closed"
     ],
     "answer": "All XML elements must be properly closed"
   },
@@ -77,7 +85,8 @@
     "options": [
       "XML tags are case sensitive",
       "XML elements must be properly nested",
-      "XML documents must have a root tag"
+      "XML documents must have a root tag",
+      "White-space is not preserved in XML"
     ],
     "answer": "White-space is not preserved in XML"
   },
@@ -85,7 +94,8 @@
     "id": 10,
     "question": "XML preserves white spaces",
     "options": [
-      "False"
+      "False",
+      "True"
     ],
     "answer": "True"
   },
@@ -93,7 +103,8 @@
     "id": 11,
     "question": "Is this a \"well formed\" XML document?\n\n<?xml version=\"1.0\"?>\n<note>\n<to age=\"29\">Tove</to>\n<from>Jani</from>\n</note>",
     "options": [
-      "No"
+      "No",
+      "Yes"
     ],
     "answer": "Yes"
   },
@@ -101,7 +112,8 @@
     "id": 12,
     "question": "Is this a \"well formed\" XML document?\n\n<?xml version=\"1.0\"?>\n<note>\n<to age=29>Tove</to>\n<from>Jani</from>\n</note>",
     "options": [
-      "Yes"
+      "Yes",
+      "No"
     ],
     "answer": "No"
   },
@@ -109,7 +121,8 @@
     "id": 13,
     "question": "XML elements cannot be empty",
     "options": [
-      "True"
+      "True",
+      "False"
     ],
     "answer": "False"
   },
@@ -119,7 +132,8 @@
     "options": [
       "All 3 names are incorrect",
       "<Note>",
-      "<h1>"
+      "<h1>",
+      "<1dollar>"
     ],
     "answer": "<1dollar>"
   },
@@ -129,7 +143,8 @@
     "options": [
       "<NAME>",
       "All 3 names are incorrect",
-      "<age>"
+      "<age>",
+      "<first name>"
     ],
     "answer": "<first name>"
   },
@@ -139,7 +154,8 @@
     "options": [
       "<7eleven>",
       "<xmldocument>",
-      "<phone number>"
+      "<phone number>",
+      "<Name>"
     ],
     "answer": "<Name>"
   },
@@ -147,7 +163,8 @@
     "id": 17,
     "question": "XML attribute values must always be enclosed in quotes",
     "options": [
-      "False"
+      "False",
+      "True"
     ],
     "answer": "True"
   },
@@ -157,7 +174,8 @@
     "options": [
       "eXtensible Style Listing",
       "eXpandable Style Language",
-      "eXtra Style Language"
+      "eXtra Style Language",
+      "eXtensible Stylesheet Language"
     ],
     "answer": "eXtensible Stylesheet Language"
   },
@@ -166,7 +184,8 @@
     "question": "What is a correct way of referring to a stylesheet called \"mystyle.xsl\" ?",
     "options": [
       "<link type=\"text/xsl\" href=\"mystyle.xsl\" />",
-      "<stylesheet type=\"text/xsl\" href=\"mystyle.xsl\" />"
+      "<stylesheet type=\"text/xsl\" href=\"mystyle.xsl\" />",
+      "<?xml-stylesheet type=\"text/xsl\" href=\"mystyle.xsl\" ?>"
     ],
     "answer": "<?xml-stylesheet type=\"text/xsl\" href=\"mystyle.xsl\" ?>"
   },
@@ -176,7 +195,8 @@
     "options": [
       "<CDATA> Text to be ignored </CDATA>",
       "<xml:CDATA[ Text to be ignored ]>",
-      "<PCDATA> Text to be ignored </PCDATA>"
+      "<PCDATA> Text to be ignored </PCDATA>",
+      "<![CDATA[ Text to be ignored ]]>"
     ],
     "answer": "<![CDATA[ Text to be ignored ]]>"
   },
@@ -185,7 +205,8 @@
     "question": "Which statement is true?",
     "options": [
       "Attributes must always be present",
-      "Attributes must occur in defined order"
+      "Attributes must occur in defined order",
+      "None of the other two statements are true"
     ],
     "answer": "None of the other two statements are true"
   },
@@ -194,7 +215,8 @@
     "question": "What are XML entities used for?",
     "options": [
       "Entities define shortcuts to standard elements",
-      "Entities define shortcuts to standard attributes"
+      "Entities define shortcuts to standard attributes",
+      "Entities define shortcuts to standard text or special characters"
     ],
     "answer": "Entities define shortcuts to standard text or special characters"
   },
@@ -202,7 +224,8 @@
     "id": 23,
     "question": "Which of the following XML fragments is well-formed?",
     "options": [
-      "<customer id=3456><name>John Smith</name></customer>"
+      "<customer id=3456><name>John Smith</name></customer>",
+      "<customer id=\"3456\"><address/><zip code=\"3456\"/></customer>"
     ],
     "answer": "<customer id=\"3456\"><address/><zip code=\"3456\"/></customer>"
   },
@@ -211,7 +234,8 @@
     "question": "What is an XML instance?",
     "options": [
       "An XML element",
-      "An XML attribute"
+      "An XML attribute",
+      "An XML document"
     ],
     "answer": "An XML document"
   },
@@ -220,7 +244,8 @@
     "question": "Which XML DOM object represents a node in the node tree?",
     "options": [
       "The nodeList object",
-      "The document object"
+      "The document object",
+      "The node object"
     ],
     "answer": "The node object"
   }
