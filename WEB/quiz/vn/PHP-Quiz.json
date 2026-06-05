@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "question": "PHP là viết tắt của từ gì?",
+    "options": [
+      "Personal Hypertext Processor",
+      "Private Home Page",
+      "PHP: Hypertext Preprocessor"
+    ],
+    "answer": "PHP: Hypertext Preprocessor"
+  },
+  {
+    "id": 2,
+    "question": "Các server scripts PHP được bao quanh bởi các dấu phân cách nào?",
+    "options": [
+      "<&>...</&>",
+      "<?php>...<?>",
+      "<script>...</script>",
+      "<?php...?>"
+    ],
+    "answer": "<?php...?>"
+  },
+  {
+    "id": 3,
+    "question": "Làm thế nào để bạn viết \"Hello World\" trong PHP?",
+    "options": [
+      "Document.Write(\"Hello World\");",
+      "\"Hello World\";",
+      "echo \"Hello World\";"
+    ],
+    "answer": "echo \"Hello World\";"
+  },
+  {
+    "id": 4,
+    "question": "Tất cả các biến trong PHP bắt đầu bằng ký hiệu nào?",
+    "options": [
+      "$",
+      "&",
+      "!"
+    ],
+    "answer": "$"
+  },
+  {
+    "id": 5,
+    "question": "Cách chính xác để kết thúc một câu lệnh PHP là gì?",
+    "options": [
+      ";",
+      ".",
+      "New line (Dòng mới)",
+      "</php>"
+    ],
+    "answer": ";"
+  },
+  {
+    "id": 6,
+    "question": "Cú pháp PHP giống nhất với:",
+    "options": [
+      "Perl và C",
+      "JavaScript",
+      "VBScript"
+    ],
+    "answer": "Perl và C"
+  },
+  {
+    "id": 7,
+    "question": "Làm thế nào để bạn lấy thông tin từ một form được gửi bằng phương thức \"get\"?",
+    "options": [
+      "Request.QueryString;",
+      "Request.Form;",
+      "$_GET[];"
+    ],
+    "answer": "$_GET[];"
+  },
+  {
+    "id": 8,
+    "question": "Khi sử dụng phương thức POST, các biến được hiển thị trên URL:",
+    "options": [
+      "False (Sai)",
+      "True (Đúng)"
+    ],
+    "answer": "False (Sai)"
+  },
+  {
+    "id": 9,
+    "question": "Trong PHP, bạn có thể sử dụng cả dấu nháy đơn ( ' ' ) và dấu nháy kép ( \" \" ) cho chuỗi (strings):",
+    "options": [
+      "False (Sai)",
+      "True (Đúng)"
+    ],
+    "answer": "True (Đúng)"
+  },
+  {
+    "id": 10,
+    "question": "Các file include bắt buộc phải có đuôi mở rộng là \".inc\"",
+    "options": [
+      "True (Đúng)",
+      "False (Sai)"
+    ],
+    "answer": "False (Sai)"
+  },
+  {
+    "id": 11,
+    "question": "Cách chính xác để include file \"time.inc\" là gì?",
+    "options": [
+      "<?php include file=\"time.inc\"; ?>",
+      "<?php include \"time.inc\"; ?>",
+      "<?php include:\"time.inc\"; ?>",
+      ""
+    ],
+    "answer": "<?php include \"time.inc\"; ?>"
+  },
+  {
+    "id": 12,
+    "question": "Cách chính xác để tạo một hàm (function) trong PHP là gì?",
+    "options": [
+      "function myFunction()",
+      "new_function myFunction()",
+      "create myFunction()"
+    ],
+    "answer": "function myFunction()"
+  },
+  {
+    "id": 13,
+    "question": "Cách chính xác để mở file \"time.txt\" ở chế độ có thể đọc (readable) là gì?",
+    "options": [
+      "fopen(\"time.txt\",\"r+\");",
+      "open(\"time.txt\",\"read\");",
+      "open(\"time.txt\");",
+      "fopen(\"time.txt\",\"r\");"
+    ],
+    "answer": "fopen(\"time.txt\",\"r\");"
+  },
+  {
+    "id": 14,
+    "question": "PHP cho phép bạn gửi email trực tiếp từ một script",
+    "options": [
+      "False (Sai)",
+      "True (Đúng)"
+    ],
+    "answer": "True (Đúng)"
+  },
+  {
+    "id": 15,
+    "question": "Biến siêu toàn cục (superglobal variable) nào chứa thông tin về headers, paths và vị trí của script?",
+    "options": [
+      "$_SERVER",
+      "$_GET",
+      "$_SESSION",
+      "$GLOBALS"
+    ],
+    "answer": "$_SERVER"
+  },
+  {
+    "id": 16,
+    "question": "Cách chính xác để cộng 1 vào biến $count là gì?",
+    "options": [
+      "$count++;",
+      "$count =+1",
+      "count++;",
+      "++count"
+    ],
+    "answer": "$count++;"
+  },
+  {
+    "id": 17,
+    "question": "Cách chính xác để thêm một chú thích (comment) trong PHP là gì?",
+    "options": [
+      "",
+      "<comment>...</comment>",
+      "*\\...\\*",
+      "/*...*/"
+    ],
+    "answer": "/*...*/"
+  },
+  {
+    "id": 18,
+    "question": "PHP có thể chạy trên Microsoft Windows IIS (Internet Information Server):",
+    "options": [
+      "False (Sai)",
+      "True (Đúng)"
+    ],
+    "answer": "True (Đúng)"
+  },
+  {
+    "id": 19,
+    "question": "Các hàm die() và exit() thực hiện chức năng hoàn toàn giống nhau.",
+    "options": [
+      "True (Đúng)",
+      "False (Sai)"
+    ],
+    "answer": "True (Đúng)"
+  },
+  {
+    "id": 20,
+    "question": "Biến nào trong số các biến này có tên không hợp lệ?",
+    "options": [
+      "$my_Var",
+      "$myVar",
+      "$my-Var"
+    ],
+    "answer": "$my-Var"
+  },
+  {
+    "id": 21,
+    "question": "Làm thế nào để bạn tạo một cookie trong PHP?",
+    "options": [
+      "setcookie()",
+      "createcookie",
+      "makecookie()"
+    ],
+    "answer": "setcookie()"
+  },
+  {
+    "id": 22,
+    "question": "Trong PHP, cách duy nhất để xuất văn bản (output text) là sử dụng echo.",
+    "options": [
+      "False (Sai)",
+      "True (Đúng)"
+    ],
+    "answer": "False (Sai)"
+  },
+  {
+    "id": 23,
+    "question": "Làm thế nào để bạn tạo một mảng (array) trong PHP?",
+    "options": [
+      "$cars = array(\"Volvo\", \"BMW\", \"Toyota\");",
+      "$cars = array[\"Volvo\", \"BMW\", \"Toyota\"];",
+      "$cars = \"Volvo\", \"BMW\", \"Toyota\";"
+    ],
+    "answer": "$cars = array(\"Volvo\", \"BMW\", \"Toyota\");"
+  },
+  {
+    "id": 24,
+    "question": "Câu lệnh if được sử dụng để thực thi một đoạn code chỉ khi một điều kiện cụ thể là đúng",
+    "options": [
+      "True (Đúng)",
+      "False (Sai)"
+    ],
+    "answer": "True (Đúng)"
+  },
+  {
+    "id": 25,
+    "question": "Toán tử nào được sử dụng để kiểm tra xem hai giá trị có bằng nhau và có cùng kiểu dữ liệu hay không?",
+    "options": [
+      "===",
+      "=",
+      "==",
+      "!="
+    ],
+    "answer": "==="
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "question": "Câu nào sau đây là đúng?",
+    "options": [
+      "jQuery là một JavaScript Library (Thư viện JavaScript)",
+      "jQuery là một JSON Library (Thư viện JSON)"
+    ],
+    "answer": "jQuery là một JavaScript Library (Thư viện JavaScript)"
+  },
+  {
+    "id": 2,
+    "question": "jQuery sử dụng các CSS selectors để chọn các phần tử?",
+    "options": [
+      "False (Sai)",
+      "True (Đúng)"
+    ],
+    "answer": "True (Đúng)"
+  },
+  {
+    "id": 3,
+    "question": "Ký hiệu nào được jQuery sử dụng như một lối tắt (shortcut) cho jQuery?",
+    "options": [
+      "Dấu ?",
+      "Dấu %",
+      "Dấu $"
+    ],
+    "answer": "Dấu $"
+  },
+  {
+    "id": 4,
+    "question": "Nhìn vào selector sau: $(\"div\"). Nó chọn gì?",
+    "options": [
+      "Tất cả các phần tử div",
+      "Phần tử div đầu tiên"
+    ],
+    "answer": "Tất cả các phần tử div"
+  },
+  {
+    "id": 5,
+    "question": "jQuery là một thư viện dành cho client scripting hay server scripting?",
+    "options": [
+      "Client scripting",
+      "Server scripting"
+    ],
+    "answer": "Client scripting"
+  },
+  {
+    "id": 6,
+    "question": "Có thể sử dụng jQuery cùng với AJAX không?",
+    "options": [
+      "Không (No)",
+      "Có (Yes)"
+    ],
+    "answer": "Có (Yes)"
+  },
+  {
+    "id": 7,
+    "question": "Phương thức html() của jQuery hoạt động cho cả tài liệu HTML và XML",
+    "options": [
+      "True (Đúng)",
+      "False (Sai)"
+    ],
+    "answer": "False (Sai)"
+  },
+  {
+    "id": 8,
+    "question": "Đoạn mã jQuery chính xác để đặt màu nền (background color) của tất cả các phần tử p thành màu đỏ là gì?",
+    "options": [
+      "$(\"p\").style(\"background-color\",\"red\");",
+      "$(\"p\").layout(\"background-color\",\"red\");",
+      "$(\"p\").manipulate(\"background-color\",\"red\");",
+      "$(\"p\").css(\"background-color\",\"red\");"
+    ],
+    "answer": "$(\"p\").css(\"background-color\",\"red\");"
+  },
+  {
+    "id": 9,
+    "question": "Với jQuery, nhìn vào selector sau: $(\"div.intro\"). Nó chọn gì?",
+    "options": [
+      "Phần tử div đầu tiên với id=\"intro\"",
+      "Tất cả các phần tử div với class=\"intro\"",
+      "Phần tử div đầu tiên với class=\"intro\"",
+      "Tất cả các phần tử div với id=\"intro\""
+    ],
+    "answer": "Tất cả các phần tử div với class=\"intro\""
+  },
+  {
+    "id": 10,
+    "question": "Phương thức jQuery nào được sử dụng để ẩn các phần tử đã chọn?",
+    "options": [
+      "display(none)",
+      "hide()",
+      "visible(false)",
+      "hidden()"
+    ],
+    "answer": "hide()"
+  },
+  {
+    "id": 11,
+    "question": "Phương thức jQuery nào được sử dụng để thiết lập một hoặc nhiều thuộc tính style cho các phần tử đã chọn?",
+    "options": [
+      "css()",
+      "html()",
+      "style()"
+    ],
+    "answer": "css()"
+  },
+  {
+    "id": 12,
+    "question": "Phương thức jQuery nào được sử dụng để thực hiện một HTTP request bất đồng bộ (asynchronous HTTP request)?",
+    "options": [
+      "jQuery.ajaxSetup()",
+      "jQuery.ajaxAsync()",
+      "jQuery.ajax()"
+    ],
+    "answer": "jQuery.ajax()"
+  },
+  {
+    "id": 13,
+    "question": "Đoạn mã jQuery chính xác để làm cho tất cả các phần tử div có chiều cao 100 pixels là gì?",
+    "options": [
+      "$(\"div\").height=\"100\"",
+      "$(\"div\").height(100)",
+      "$(\"div\").yPos(100)"
+    ],
+    "answer": "$(\"div\").height(100)"
+  },
+  {
+    "id": 14,
+    "question": "Khẳng định nào sau đây là đúng?",
+    "options": [
+      "Để sử dụng jQuery, bạn có thể tham chiếu đến một thư viện jQuery được host tại Google",
+      "Để sử dụng jQuery, bạn không cần phải làm gì cả. Hầu hết các trình duyệt (Internet Explorer, Chrome, Firefox và Opera) đều có sẵn thư viện jQuery được tích hợp trong trình duyệt",
+      "Để sử dụng jQuery, bạn phải mua thư viện jQuery tại www.jquery.com"
+    ],
+    "answer": "Để sử dụng jQuery, bạn có thể tham chiếu đến một thư viện jQuery được host tại Google"
+  },
+  {
+    "id": 15,
+    "question": "jQuery được viết bằng ngôn ngữ scripting nào?",
+    "options": [
+      "JavaScript",
+      "C#",
+      "VBScript",
+      "C++"
+    ],
+    "answer": "JavaScript"
+  },
+  {
+    "id": 16,
+    "question": "Hàm jQuery nào được sử dụng để ngăn mã chạy trước khi tài liệu hoàn tất việc tải (loading)?",
+    "options": [
+      "$(document).ready()",
+      "$(document).load()",
+      "$(body).onload()"
+    ],
+    "answer": "$(document).ready()"
+  },
+  {
+    "id": 17,
+    "question": "Phương thức jQuery nào nên được sử dụng để giải quyết các xung đột tên (name conflicts)?",
+    "options": [
+      "noConflict()",
+      "nameConflict()",
+      "conflict()",
+      "noNameConflict()"
+    ],
+    "answer": "noConflict()"
+  },
+  {
+    "id": 18,
+    "question": "Phương thức jQuery nào được sử dụng để chuyển đổi (switch) giữa việc thêm/xóa một hoặc nhiều classes (cho CSS) từ các phần tử đã chọn?",
+    "options": [
+      "altClass()",
+      "switchClass()",
+      "toggleClass()",
+      "switch()"
+    ],
+    "answer": "toggleClass()"
+  },
+  {
+    "id": 19,
+    "question": "Nhìn vào selector sau: $(\"div p\"). Nó chọn gì?",
+    "options": [
+      "Tất cả các phần tử div có chứa một phần tử p",
+      "Phần tử p đầu tiên bên trong một phần tử div",
+      "Tất cả các phần tử p bên trong một phần tử div"
+    ],
+    "answer": "Tất cả các phần tử p bên trong một phần tử div"
+  },
+  {
+    "id": 20,
+    "question": "jQuery có phải là một chuẩn (standard) của W3C không?",
+    "options": [
+      "Không (No)",
+      "Có (Yes)"
+    ],
+    "answer": "Không (No)"
+  },
+  {
+    "id": 21,
+    "question": "Nhìn vào selector sau: $(\"p#intro\"). Nó chọn gì?",
+    "options": [
+      "Tất cả các phần tử p với class=\"intro\"",
+      "Phần tử p với id=\"intro\""
+    ],
+    "answer": "Phần tử p với id=\"intro\""
+  },
+  {
+    "id": 22,
+    "question": "Phương thức jQuery nào được sử dụng để xóa các phần tử đã chọn?",
+    "options": [
+      "remove()",
+      "detach()",
+      "Cả hai phương thức đều có thể được sử dụng"
+    ],
+    "answer": "Cả hai phương thức đều có thể được sử dụng"
+  },
+  {
+    "id": 23,
+    "question": "Nhìn vào selector sau: $(\":disabled\"). Nó chọn gì?",
+    "options": [
+      "Tất cả các phần tử input bị vô hiệu hóa (disabled)",
+      "Tất cả các phần tử bị ẩn (hidden)",
+      "Tất cả các phần tử chứa đoạn text \"disabled\"",
+      "Tất cả các phần tử không chứa đoạn text \"disabled\""
+    ],
+    "answer": "Tất cả các phần tử input bị vô hiệu hóa (disabled)"
+  },
+  {
+    "id": 24,
+    "question": "Phương thức jQuery nào trả về phần tử cha (parent element) trực tiếp của phần tử được chọn?",
+    "options": [
+      "ancestors()",
+      "parents()",
+      "ancestor()",
+      "parent()"
+    ],
+    "answer": "parent()"
+  },
+  {
+    "id": 25,
+    "question": "Phương thức animate() của jQuery có thể được sử dụng để animate BẤT KỲ thuộc tính CSS nào?",
+    "options": [
+      "Chỉ các thuộc tính chứa giá trị số (numeric values)",
+      "Tất cả các thuộc tính ngoại trừ các thuộc tính viết tắt (shorthand properties)",
+      "Có (Yes)"
+    ],
+    "answer": "Chỉ các thuộc tính chứa giá trị số (numeric values)"
+  }
+]

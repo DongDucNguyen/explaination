@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "question": "What does PHP stand for?",
+    "options": [
+      "Personal Hypertext Processor",
+      "Private Home Page",
+      "PHP: Hypertext Preprocessor"
+    ],
+    "answer": "PHP: Hypertext Preprocessor"
+  },
+  {
+    "id": 2,
+    "question": "PHP server scripts are surrounded by delimiters, which?",
+    "options": [
+      "<&>...</&>",
+      "<?php>...<?>",
+      "<script>...</script>",
+      "<?php...?>"
+    ],
+    "answer": "<?php...?>"
+  },
+  {
+    "id": 3,
+    "question": "How do you write \"Hello World\" in PHP",
+    "options": [
+      "Document.Write(\"Hello World\");",
+      "\"Hello World\";",
+      "echo \"Hello World\";"
+    ],
+    "answer": "echo \"Hello World\";"
+  },
+  {
+    "id": 4,
+    "question": "All variables in PHP start with which symbol?",
+    "options": [
+      "$",
+      "&",
+      "!"
+    ],
+    "answer": "$"
+  },
+  {
+    "id": 5,
+    "question": "What is the correct way to end a PHP statement?",
+    "options": [
+      ";",
+      ".",
+      "New line",
+      "</php>"
+    ],
+    "answer": ";"
+  },
+  {
+    "id": 6,
+    "question": "The PHP syntax is most similar to:",
+    "options": [
+      "Perl and C",
+      "JavaScript",
+      "VBScript"
+    ],
+    "answer": "Perl and C"
+  },
+  {
+    "id": 7,
+    "question": "How do you get information from a form that is submitted using the \"get\" method?",
+    "options": [
+      "Request.QueryString;",
+      "Request.Form;",
+      "$_GET[];"
+    ],
+    "answer": "$_GET[];"
+  },
+  {
+    "id": 8,
+    "question": "When using the POST method, variables are displayed in the URL:",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 9,
+    "question": "In PHP you can use both single quotes ( ' ' ) and double quotes ( \" \" ) for strings:",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 10,
+    "question": "Include files must have the file extension \".inc\"",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 11,
+    "question": "What is the correct way to include the file \"time.inc\" ?",
+    "options": [
+      "<?php include file=\"time.inc\"; ?>",
+      "<?php include \"time.inc\"; ?>",
+      "<?php include:\"time.inc\"; ?>",
+      ""
+    ],
+    "answer": "<?php include \"time.inc\"; ?>"
+  },
+  {
+    "id": 12,
+    "question": "What is the correct way to create a function in PHP?",
+    "options": [
+      "function myFunction()",
+      "new_function myFunction()",
+      "create myFunction()"
+    ],
+    "answer": "function myFunction()"
+  },
+  {
+    "id": 13,
+    "question": "What is the correct way to open the file \"time.txt\" as readable?",
+    "options": [
+      "fopen(\"time.txt\",\"r+\");",
+      "open(\"time.txt\",\"read\");",
+      "open(\"time.txt\");",
+      "fopen(\"time.txt\",\"r\");"
+    ],
+    "answer": "fopen(\"time.txt\",\"r\");"
+  },
+  {
+    "id": 14,
+    "question": "PHP allows you to send emails directly from a script",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 15,
+    "question": "Which superglobal variable holds information about headers, paths, and script locations?",
+    "options": [
+      "$_SERVER",
+      "$_GET",
+      "$_SESSION",
+      "$GLOBALS"
+    ],
+    "answer": "$_SERVER"
+  },
+  {
+    "id": 16,
+    "question": "What is the correct way to add 1 to the $count variable?",
+    "options": [
+      "$count++;",
+      "$count =+1",
+      "count++;",
+      "++count"
+    ],
+    "answer": "$count++;"
+  },
+  {
+    "id": 17,
+    "question": "What is a correct way to add a comment in PHP?",
+    "options": [
+      "",
+      "<comment>...</comment>",
+      "*\\...\\*",
+      "/*...*/"
+    ],
+    "answer": "/*...*/"
+  },
+  {
+    "id": 18,
+    "question": "PHP can be run on Microsoft Windows IIS(Internet Information Server):",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 19,
+    "question": "The die() and exit() functions do the exact same thing.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 20,
+    "question": "Which one of these variables has an illegal name?",
+    "options": [
+      "$my_Var",
+      "$myVar",
+      "$my-Var"
+    ],
+    "answer": "$my-Var"
+  },
+  {
+    "id": 21,
+    "question": "How do you create a cookie in PHP?",
+    "options": [
+      "setcookie()",
+      "createcookie",
+      "makecookie()"
+    ],
+    "answer": "setcookie()"
+  },
+  {
+    "id": 22,
+    "question": "In PHP, the only way to output text is with echo.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 23,
+    "question": "How do you create an array in PHP?",
+    "options": [
+      "$cars = array(\"Volvo\", \"BMW\", \"Toyota\");",
+      "$cars = array[\"Volvo\", \"BMW\", \"Toyota\"];",
+      "$cars = \"Volvo\", \"BMW\", \"Toyota\";"
+    ],
+    "answer": "$cars = array(\"Volvo\", \"BMW\", \"Toyota\");"
+  },
+  {
+    "id": 24,
+    "question": "The if statement is used to execute some code only if a specified condition is true",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 25,
+    "question": "Which operator is used to check if two values are equal and of same data type?",
+    "options": [
+      "===",
+      "=",
+      "==",
+      "!="
+    ],
+    "answer": "==="
+  }
+]

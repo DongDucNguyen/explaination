@@ -1,0 +1,207 @@
+[
+  {
+    "id": 1,
+    "question": "CSS là viết tắt của từ gì?",
+    "options": [
+      "Colorful Style Sheets",
+      "Computer Style Sheets",
+      "Creative Style Sheets",
+      "Cascading Style Sheets"
+    ],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "id": 2,
+    "question": "Đoạn mã HTML nào là chính xác để tham chiếu đến một external style sheet?",
+    "options": [
+      "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">",
+      "<style src=\"mystyle.css\">",
+      "<stylesheet>mystyle.css</stylesheet>"
+    ],
+    "answer": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">"
+  },
+  {
+    "id": 3,
+    "question": "Vị trí nào trong tài liệu HTML là nơi chính xác để tham chiếu đến một external style sheet?",
+    "options": [
+      "Ở cuối tài liệu",
+      "Trong phần <body>",
+      "Trong phần <head>"
+    ],
+    "answer": "Trong phần <head>"
+  },
+  {
+    "id": 4,
+    "question": "Thẻ HTML nào được sử dụng để định nghĩa một internal style sheet?",
+    "options": ["<script>", "<style>", "<css>"],
+    "answer": "<style>"
+  },
+  {
+    "id": 5,
+    "question": "Thuộc tính HTML nào được sử dụng để định nghĩa inline styles?",
+    "options": ["style", "class", "styles", "font"],
+    "answer": "style"
+  },
+  {
+    "id": 6,
+    "question": "Cú pháp CSS nào sau đây là chính xác?",
+    "options": [
+      "{body;color:black;}",
+      "body:color=black;",
+      "body {color: black;}",
+      "{body:color=black;}"
+    ],
+    "answer": "body {color: black;}"
+  },
+  {
+    "id": 7,
+    "question": "Làm thế nào để chèn một chú thích (comment) vào một file CSS?",
+    "options": [
+      "// this is a comment",
+      "/* this is a comment */",
+      "' this is a comment",
+      "// this is a comment //"
+    ],
+    "answer": "/* this is a comment */"
+  },
+  {
+    "id": 8,
+    "question": "Thuộc tính nào được sử dụng để thay đổi màu nền?",
+    "options": ["background-color", "color", "bgcolor"],
+    "answer": "background-color"
+  },
+  {
+    "id": 9,
+    "question": "Làm thế nào để thêm màu nền cho tất cả các phần tử <h1>?",
+    "options": [
+      "h1 {background-color:#FFFFFF;}",
+      "all.h1 {background-color:#FFFFFF;}",
+      "h1.all {background-color:#FFFFFF;}"
+    ],
+    "answer": "h1 {background-color:#FFFFFF;}"
+  },
+  {
+    "id": 10,
+    "question": "Thuộc tính CSS nào được sử dụng để thay đổi màu chữ của một phần tử?",
+    "options": ["text-color", "color", "fgcolor"],
+    "answer": "color"
+  },
+  {
+    "id": 11,
+    "question": "Thuộc tính CSS nào điều khiển kích thước chữ?",
+    "options": ["font-style", "text-size", "font-size", "text-style"],
+    "answer": "font-size"
+  },
+  {
+    "id": 12,
+    "question": "Cú pháp CSS chính xác để làm cho tất cả các phần tử <p> được in đậm là gì?",
+    "options": [
+      "p {font-weight:bold;}",
+      "p {text-size:bold;}",
+      "<p style=\"font-size:bold;\">",
+      "<p style=\"text-size:bold;\">"
+    ],
+    "answer": "p {font-weight:bold;}"
+  },
+  {
+    "id": 13,
+    "question": "Làm thế nào để hiển thị các siêu liên kết (hyperlinks) mà không có dấu gạch chân?",
+    "options": [
+      "a {underline:none;}",
+      "a {text-decoration:none;}",
+      "a {text-decoration:no-underline;}",
+      "a {decoration:no-underline;}"
+    ],
+    "answer": "a {text-decoration:none;}"
+  },
+  {
+    "id": 14,
+    "question": "Làm thế nào để làm cho mỗi từ trong một văn bản bắt đầu bằng một chữ cái viết hoa?",
+    "options": [
+      "transform:capitalize",
+      "text-style:capitalize",
+      "text-transform:capitalize",
+      "Bạn không thể làm điều đó với CSS"
+    ],
+    "answer": "text-transform:capitalize"
+  },
+  {
+    "id": 15,
+    "question": "Thuộc tính nào được sử dụng để thay đổi font chữ của một phần tử?",
+    "options": ["font-style", "font-family", "font-weight"],
+    "answer": "font-family"
+  },
+  {
+    "id": 16,
+    "question": "Làm thế nào để làm cho văn bản in đậm?",
+    "options": ["font-weight:bold;", "font:bold;", "style:bold;"],
+    "answer": "font-weight:bold;"
+  },
+  {
+    "id": 17,
+    "question": "Làm thế nào để hiển thị một border như sau:\n\nBorder trên = 10 pixels\nBorder dưới = 5 pixels\nBorder trái = 20 pixels\nBorder phải = 1pixel?",
+    "options": [
+      "border-width:10px 5px 20px 1px;",
+      "border-width:5px 20px 10px 1px;",
+      "border-width:10px 1px 5px 20px;",
+      "border-width:10px 20px 5px 1px;"
+    ],
+    "answer": "border-width:10px 1px 5px 20px;"
+  },
+  {
+    "id": 18,
+    "question": "Thuộc tính nào được sử dụng để thay đổi lề trái (left margin) của một phần tử?",
+    "options": ["padding-left", "indent", "margin-left"],
+    "answer": "margin-left"
+  },
+  {
+    "id": 19,
+    "question": "Khi sử dụng thuộc tính padding; bạn có được phép sử dụng giá trị âm không?",
+    "options": ["Không", "Có"],
+    "answer": "Không"
+  },
+  {
+    "id": 20,
+    "question": "Làm thế nào để tạo một danh sách liệt kê các mục của nó bằng hình vuông?",
+    "options": [
+      "list-style-type: square;",
+      "list-type: square;",
+      "list: square;"
+    ],
+    "answer": "list-style-type: square;"
+  },
+  {
+    "id": 21,
+    "question": "Làm thế nào để chọn một phần tử với id 'demo'?",
+    "options": ["#demo", ".demo", "*demo", "demo"],
+    "answer": "#demo"
+  },
+  {
+    "id": 22,
+    "question": "Làm thế nào để chọn các phần tử với tên class 'test'?",
+    "options": ["#test", "test", "*test", ".test"],
+    "answer": ".test"
+  },
+  {
+    "id": 23,
+    "question": "Làm thế nào để chọn tất cả các phần tử p bên trong một phần tử div?",
+    "options": ["div.p", "div p", "div + p"],
+    "answer": "div p"
+  },
+  {
+    "id": 24,
+    "question": "Làm thế nào để gộp các selectors?",
+    "options": [
+      "Phân tách mỗi selector bằng một dấu phẩy",
+      "Phân tách mỗi selector bằng một dấu cộng",
+      "Phân tách mỗi selector bằng một khoảng trắng"
+    ],
+    "answer": "Phân tách mỗi selector bằng một dấu phẩy"
+  },
+  {
+    "id": 25,
+    "question": "Giá trị mặc định của thuộc tính position là gì?",
+    "options": ["fixed", "absolute", "static", "relative"],
+    "answer": "static"
+  }
+]

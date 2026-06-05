@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "question": "Chúng ta đặt JavaScript bên trong thẻ HTML nào?",
+    "options": ["<javascript>", "<script>", "<js>", "<scripting>"],
+    "answer": "<script>"
+  },
+  {
+    "id": 2,
+    "question": "Cú pháp JavaScript chính xác để thay đổi nội dung của phần tử HTML bên dưới là gì?\n\n<p id=\"demo\">This is a demonstration.</p>",
+    "options": [
+      "document.getElementByName(\"p\").innerHTML = \"Hello World!\";",
+      "document.getElementById(\"demo\").innerHTML = \"Hello World!\";",
+      "document.getElement(\"p\").innerHTML = \"Hello World!\";",
+      "#demo.innerHTML = \"Hello World!\";"
+    ],
+    "answer": "document.getElementById(\"demo\").innerHTML = \"Hello World!\";"
+  },
+  {
+    "id": 3,
+    "question": "Vị trí chính xác để chèn một đoạn JavaScript là ở đâu?",
+    "options": [
+      "Cả phần <head> và phần <body> đều đúng",
+      "Phần <body>",
+      "Phần <head>"
+    ],
+    "answer": "Cả phần <head> và phần <body> đều đúng"
+  },
+  {
+    "id": 4,
+    "question": "Cú pháp chính xác để tham chiếu đến một external script có tên \"xxx.js\" là gì?",
+    "options": [
+      "<script src=\"xxx.js\">",
+      "<script name=\"xxx.js\">",
+      "<script href=\"xxx.js\">"
+    ],
+    "answer": "<script src=\"xxx.js\">"
+  },
+  {
+    "id": 5,
+    "question": "File JavaScript external bắt buộc phải chứa thẻ <script>.",
+    "options": ["True (Đúng)", "False (Sai)"],
+    "answer": "False (Sai)"
+  },
+  {
+    "id": 6,
+    "question": "Làm thế nào để viết \"Hello World\" vào một hộp cảnh báo (alert box)?",
+    "options": [
+      "alertBox(\"Hello World\");",
+      "alert(\"Hello World\");",
+      "msgBox(\"Hello World\");",
+      "msg(\"Hello World\");"
+    ],
+    "answer": "alert(\"Hello World\");"
+  },
+  {
+    "id": 7,
+    "question": "Làm thế nào để tạo một hàm (function) trong JavaScript?",
+    "options": [
+      "function:myFunction()",
+      "function = myFunction()",
+      "function myFunction()"
+    ],
+    "answer": "function myFunction()"
+  },
+  {
+    "id": 8,
+    "question": "Làm thế nào để gọi một hàm có tên \"myFunction\"?",
+    "options": [
+      "myFunction()",
+      "call myFunction()",
+      "call function myFunction()"
+    ],
+    "answer": "myFunction()"
+  },
+  {
+    "id": 9,
+    "question": "Làm thế nào để viết một câu lệnh IF trong JavaScript?",
+    "options": [
+      "if i = 5 then",
+      "if i = 5",
+      "if (i == 5)",
+      "if i == 5 then"
+    ],
+    "answer": "if (i == 5)"
+  },
+  {
+    "id": 10,
+    "question": "Làm thế nào để viết một câu lệnh IF để thực thi code nếu \"i\" KHÔNG bằng 5?",
+    "options": [
+      "if i =! 5 then",
+      "if (i <> 5)",
+      "if (i != 5)",
+      "if i <> 5"
+    ],
+    "answer": "if (i != 5)"
+  },
+  {
+    "id": 11,
+    "question": "Một vòng lặp WHILE bắt đầu như thế nào?",
+    "options": [
+      "while (i <= 10; i++)",
+      "while (i <= 10)",
+      "while i = 1 to 10"
+    ],
+    "answer": "while (i <= 10)"
+  },
+  {
+    "id": 12,
+    "question": "Một vòng lặp FOR bắt đầu như thế nào?",
+    "options": [
+      "for i = 1 to 5",
+      "for (i <= 5; i++)",
+      "for (i = 0; i <= 5; i++)",
+      "for (i = 0; i <= 5)"
+    ],
+    "answer": "for (i = 0; i <= 5; i++)"
+  },
+  {
+    "id": 13,
+    "question": "Làm thế nào bạn có thể thêm một chú thích (comment) trong JavaScript?",
+    "options": [
+      "",
+      "//This is a comment",
+      "'This is a comment"
+    ],
+    "answer": "//This is a comment"
+  },
+  {
+    "id": 14,
+    "question": "Làm thế nào để chèn một chú thích có nhiều hơn một dòng?",
+    "options": [
+      "/*This comment has\nmore than one line*/",
+      "",
+      "//This comment has\nmore than one line//"
+    ],
+    "answer": "/*This comment has\nmore than one line*/"
+  },
+  {
+    "id": 15,
+    "question": "Cách chính xác để viết một mảng (array) trong JavaScript là gì?",
+    "options": [
+      "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+      "var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")",
+      "var colors = \"red\", \"green\", \"blue\"",
+      "var colors = [\"red\", \"green\", \"blue\"]"
+    ],
+    "answer": "var colors = [\"red\", \"green\", \"blue\"]"
+  },
+  {
+    "id": 16,
+    "question": "Làm thế nào để làm tròn số 7.25 đến số nguyên gần nhất?",
+    "options": [
+      "Math.round(7.25)",
+      "rnd(7.25)",
+      "Math.rnd(7.25)",
+      "round(7.25)"
+    ],
+    "answer": "Math.round(7.25)"
+  },
+  {
+    "id": 17,
+    "question": "Làm thế nào để tìm số có giá trị lớn nhất giữa x và y?",
+    "options": [
+      "Math.max(x, y)",
+      "Math.ceil(x, y)",
+      "top(x, y)",
+      "ceil(x, y)"
+    ],
+    "answer": "Math.max(x, y)"
+  },
+  {
+    "id": 18,
+    "question": "Cú pháp JavaScript chính xác để mở một cửa sổ mới có tên \"w2\" là gì?",
+    "options": [
+      "w2 = window.new(\"http://www.w3schools.com\");",
+      "w2 = window.open(\"http://www.w3schools.com\");"
+    ],
+    "answer": "w2 = window.open(\"http://www.w3schools.com\");"
+  },
+  {
+    "id": 19,
+    "question": "JavaScript giống hệt với Java.",
+    "options": ["True (Đúng)", "False (Sai)"],
+    "answer": "False (Sai)"
+  },
+  {
+    "id": 20,
+    "question": "Từ khóa nào KHÔNG hợp lệ để khai báo một biến trong JavaScript?",
+    "options": ["constant", "var", "let"],
+    "answer": "constant"
+  },
+  {
+    "id": 21,
+    "question": "Sự kiện nào xảy ra khi người dùng click vào một phần tử HTML?",
+    "options": ["onchange", "onclick", "onmouseover", "onmouseclick"],
+    "answer": "onclick"
+  },
+  {
+    "id": 22,
+    "question": "Làm thế nào để khai báo một biến JavaScript?",
+    "options": ["v carName;", "var carName;", "variable carName;"],
+    "answer": "var carName;"
+  },
+  {
+    "id": 23,
+    "question": "Toán tử nào được sử dụng để gán một giá trị cho một biến?",
+    "options": ["=", "-", "x", "*"],
+    "answer": "="
+  },
+  {
+    "id": 24,
+    "question": "Đoạn code sau sẽ trả về gì: Boolean(10 > 9)",
+    "options": ["false", "true", "NaN"],
+    "answer": "true"
+  },
+  {
+    "id": 25,
+    "question": "JavaScript có phân biệt chữ hoa chữ thường (case-sensitive) không?",
+    "options": ["Có", "Không"],
+    "answer": "Có"
+  }
+]

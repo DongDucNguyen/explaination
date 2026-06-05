@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "question": "Bootstrap 3 là mobile-first.",
+    "options": ["True (Đúng)", "False (Sai)"],
+    "answer": "True (Đúng)"
+  },
+  {
+    "id": 2,
+    "question": "Class nào cung cấp một container responsive với chiều rộng cố định (fixed width)?",
+    "options": [".container-fluid", ".container-fixed", ".container"],
+    "answer": ".container"
+  },
+  {
+    "id": 3,
+    "question": "Class nào cung cấp một container full width, trải dài toàn bộ chiều rộng của viewport?",
+    "options": [".container-fluid", ".container-fixed", ".container"],
+    "answer": ".container-fluid"
+  },
+  {
+    "id": 4,
+    "question": "Hệ thống lưới (grid system) của Bootstrap dựa trên bao nhiêu cột?",
+    "options": ["12", "9", "3", "6"],
+    "answer": "12"
+  },
+  {
+    "id": 5,
+    "question": "Class nào thêm hiệu ứng sọc ngựa vằn (zebra-stripes) vào một bảng?",
+    "options": [".table-striped", ".table-zebra", ".table-bordered", ".even and .odd"],
+    "answer": ".table-striped"
+  },
+  {
+    "id": 6,
+    "question": "Class nào định dạng một hình ảnh thành hình tròn?",
+    "options": [".img-round", ".img-circle", ".img-thumbnail", ".img-rounded"],
+    "answer": ".img-circle"
+  },
+  {
+    "id": 7,
+    "question": "Class nào được sử dụng để tạo một khối lớn (big box) nhằm thu hút sự chú ý đặc biệt?",
+    "options": [".bigbox", ".jumbotron", ".container"],
+    "answer": ".jumbotron"
+  },
+  {
+    "id": 8,
+    "question": "Class button nào được sử dụng để tạo một nút lớn?",
+    "options": [".btn-l", ".btn-large", ".btn-lg", ".btn-xl"],
+    "answer": ".btn-lg"
+  },
+  {
+    "id": 9,
+    "question": "Class nào được sử dụng để tạo một nhóm nút (button group)?",
+    "options": [".btn-group", ".group-btn", ".button-group", ".group-button"],
+    "answer": ".btn-group"
+  },
+  {
+    "id": 10,
+    "question": "Làm thế nào bạn có thể chèn một biểu tượng tìm kiếm (search icon)?",
+    "options": [
+      "<span class=\"glyphicon-search\"></span>",
+      "<span class=\"glyphicon glyphicon-search\"></span>",
+      "<span class=\"glyphicon search\"></span>",
+      "<span class=\"glyph glyph-search\"></span>"
+    ],
+    "answer": "<span class=\"glyphicon glyphicon-search\"></span>"
+  },
+  {
+    "id": 11,
+    "question": "Class nào được sử dụng để tạo một badge?",
+    "options": [".badge", ".tag", ".flag", ".label"],
+    "answer": ".badge"
+  },
+  {
+    "id": 12,
+    "question": "Class nào được sử dụng để tạo một phân trang (pagination) cơ bản?",
+    "options": [".page", ".navigation", ".pages", ".pagination"],
+    "answer": ".pagination"
+  },
+  {
+    "id": 13,
+    "question": "Class nào được sử dụng để tạo một list group cơ bản?",
+    "options": [".list-group", ".group-list", ".grouped-list"],
+    "answer": ".list-group"
+  },
+  {
+    "id": 14,
+    "question": "Class nào thêm một heading vào một panel?",
+    "options": [".panel-header", ".panel-heading", ".panel-head", ".panel-footer"],
+    "answer": ".panel-heading"
+  },
+  {
+    "id": 15,
+    "question": "Class nào chỉ định một dropdown menu?",
+    "options": [".select", ".dropdown", ".dropdown-list"],
+    "answer": ".dropdown"
+  },
+  {
+    "id": 16,
+    "question": "Một navigation tab tiêu chuẩn được tạo bằng:",
+    "options": [
+      "<ul class=\"nav nav-navbar\">",
+      "<ul class=\"navigation-tabs\">",
+      "<ul class=\"nav nav-tabs\">",
+      "<ul class=\"nav tabs\">"
+    ],
+    "answer": "<ul class=\"nav nav-tabs\">"
+  },
+  {
+    "id": 17,
+    "question": "Một navigation bar tiêu chuẩn được tạo bằng:",
+    "options": [
+      "<nav class=\"navbar navbar-default\">",
+      "<nav class=\"nav navbar\">",
+      "<nav class=\"navbar default-navbar\">",
+      "<nav class=\"navigationbar navbar-default\">"
+    ],
+    "answer": "<nav class=\"navbar navbar-default\">"
+  },
+  {
+    "id": 18,
+    "question": "Class nào được sử dụng để tạo một navigation bar màu đen?",
+    "options": [".navbar-black", ".navbar-default", ".navbar-dark", ".navbar-inverse"],
+    "answer": ".navbar-inverse"
+  },
+  {
+    "id": 19,
+    "question": "Plugin nào được sử dụng để lặp qua các phần tử, giống như một slideshow?",
+    "options": ["Orbit", "Carousel", "Slideshow", "Scrollspy"],
+    "answer": "Carousel"
+  },
+  {
+    "id": 20,
+    "question": "Plugin nào được sử dụng để tạo một cửa sổ modal?",
+    "options": ["Modal", "Popup", "Dialog Box", "Window"],
+    "answer": "Modal"
+  },
+  {
+    "id": 21,
+    "question": "Plugin nào được sử dụng để tạo một tooltip?",
+    "options": ["Tooltip", "Modal", "Popup", "Dialog Box"],
+    "answer": "Tooltip"
+  },
+  {
+    "id": 22,
+    "question": "Class ngữ cảnh (contextual class) nào biểu thị một hành động thành công hoặc tích cực?",
+    "options": [".text-success", ".text-info", ".text-warning", ".text-primary"],
+    "answer": ".text-success"
+  },
+  {
+    "id": 23,
+    "question": "Class ngữ cảnh (contextual class) nào biểu thị một hành động nguy hiểm hoặc có khả năng tiêu cực?",
+    "options": [".text-danger", ".text-info", ".text-primary", ".text-warning"],
+    "answer": ".text-danger"
+  },
+  {
+    "id": 24,
+    "question": "Class nào biểu thị văn bản được viết hoa (uppercased text)?",
+    "options": [".text-uppercase", ".ucase", ".text-capitalize", ".uppercase"],
+    "answer": ".text-uppercase"
+  },
+  {
+    "id": 25,
+    "question": "Hệ thống lưới (grid system) của Bootstrap hoạt động trên nhiều thiết bị.",
+    "options": ["True (Đúng)", "False (Sai)"],
+    "answer": "True (Đúng)"
+  }
+]

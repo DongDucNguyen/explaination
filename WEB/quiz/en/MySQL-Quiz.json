@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "question": "What is MySQL?",
+    "options": [
+      "Developed, distributed, and supported by Oracle Corporation",
+      "A relational database management system",
+      "Cross-platform, open-source and free",
+      "All the options are correct"
+    ],
+    "answer": "All the options are correct"
+  },
+  {
+    "id": 2,
+    "question": "Which MySQL statement is used to select data from a database?",
+    "options": [
+      "GET",
+      "SELECT",
+      "OPEN",
+      "EXTRACT"
+    ],
+    "answer": "SELECT"
+  },
+  {
+    "id": 3,
+    "question": "Which MySQL statement is used to update data in a database?",
+    "options": [
+      "INSERT",
+      "SAVE",
+      "MODIFY",
+      "UPDATE"
+    ],
+    "answer": "UPDATE"
+  },
+  {
+    "id": 4,
+    "question": "Which MySQL statement is used to delete data from a database?",
+    "options": [
+      "REMOVE",
+      "DELETE",
+      "COLLAPSE"
+    ],
+    "answer": "DELETE"
+  },
+  {
+    "id": 5,
+    "question": "Which MYSQL statement is used to insert new data in a database?",
+    "options": [
+      "INSERT NEW",
+      "INSERT INTO",
+      "ADD NEW",
+      "ADD RECORD"
+    ],
+    "answer": "INSERT INTO"
+  },
+  {
+    "id": 6,
+    "question": "With MySQL, how do you select a column named \"FirstName\" from a table named \"Persons\"?",
+    "options": [
+      "EXTRACT FirstName FROM Persons",
+      "SELECT FirstName FROM Persons",
+      "SELECT Persons.FirstName"
+    ],
+    "answer": "SELECT FirstName FROM Persons"
+  },
+  {
+    "id": 7,
+    "question": "With MySQL, how do you select all the columns from a table named \"Persons\"?",
+    "options": [
+      "SELECT [all] FROM Persons",
+      "SELECT * FROM Persons",
+      "SELECT *.Persons",
+      "SELECT Persons"
+    ],
+    "answer": "SELECT * FROM Persons"
+  },
+  {
+    "id": 8,
+    "question": "With MySQL, how do you select all the records from a table named \"Persons\" where the value of the column \"FirstName\" is \"Peter\"?",
+    "options": [
+      "SELECT * FROM Persons WHERE FirstName<>'Peter'",
+      "SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'",
+      "SELECT [all] FROM Persons WHERE FirstName='Peter'",
+      "SELECT * FROM Persons WHERE FirstName='Peter'"
+    ],
+    "answer": "SELECT * FROM Persons WHERE FirstName='Peter'"
+  },
+  {
+    "id": 9,
+    "question": "With MySQL, how do you select all the records from a table named \"Persons\" where the value of the column \"FirstName\" starts with an \"a\"?",
+    "options": [
+      "SELECT * FROM Persons WHERE FirstName LIKE '%a'",
+      "SELECT * FROM Persons WHERE FirstName LIKE 'a%'",
+      "SELECT * FROM Persons WHERE FirstName='%a%'",
+      "SELECT * FROM Persons WHERE FirstName='a'"
+    ],
+    "answer": "SELECT * FROM Persons WHERE FirstName LIKE 'a%'"
+  },
+  {
+    "id": 10,
+    "question": "The OR operator displays a record if ANY conditions listed are true. The AND operator displays a record if ALL of the conditions listed are true",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 11,
+    "question": "With MySQL, how do you select all the records from a table named \"Persons\" where the \"FirstName\" is \"Peter\" and the \"LastName\" is \"Jackson\"?",
+    "options": [
+      "SELECT * FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'",
+      "SELECT * FROM Persons WHERE FirstName<>'Peter' AND LastName<>'Jackson'",
+      "SELECT FirstName='Peter', LastName='Jackson' FROM Persons"
+    ],
+    "answer": "SELECT * FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'"
+  },
+  {
+    "id": 12,
+    "question": "With MySQL, how do you select all the records from a table named \"Persons\" where the \"LastName\" is alphabetically between (and including) \"Hansen\" and \"Pettersen\"?",
+    "options": [
+      "SELECT LastName>'Hansen' AND LastName<'Pettersen' FROM Persons",
+      "SELECT * FROM Persons WHERE LastName>'Hansen' AND LastName<'Pettersen'",
+      "SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'"
+    ],
+    "answer": "SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'"
+  },
+  {
+    "id": 13,
+    "question": "Which MySQL statement is used to return only different values?",
+    "options": [
+      "SELECT UNIQUE",
+      "SELECT DISTINCT",
+      "SELECT DIFFERENT"
+    ],
+    "answer": "SELECT DISTINCT"
+  },
+  {
+    "id": 14,
+    "question": "Which MySQL keyword is used to sort the result-set?",
+    "options": [
+      "ORDER",
+      "SORT",
+      "ORDER BY",
+      "SORT BY"
+    ],
+    "answer": "ORDER BY"
+  },
+  {
+    "id": 15,
+    "question": "With MySQL, how can you return all the records from a table named \"Persons\" sorted descending by \"FirstName\"?",
+    "options": [
+      "SELECT * FROM Persons ORDER BY FirstName DESC",
+      "SELECT * FROM Persons SORT 'FirstName' DESC",
+      "SELECT * FROM Persons SORT BY 'FirstName' DESC",
+      "SELECT * FROM Persons ORDER FirstName DESC"
+    ],
+    "answer": "SELECT * FROM Persons ORDER BY FirstName DESC"
+  },
+  {
+    "id": 16,
+    "question": "With MySQL, how can you insert a new record into the \"Persons\" table?",
+    "options": [
+      "INSERT ('Jimmy', 'Jackson') INTO Persons",
+      "INSERT VALUES ('Jimmy', 'Jackson') INTO Persons",
+      "INSERT INTO Persons VALUES ('Jimmy', 'Jackson')"
+    ],
+    "answer": "INSERT INTO Persons VALUES ('Jimmy', 'Jackson')"
+  },
+  {
+    "id": 17,
+    "question": "With MySQL, how can you insert \"Olsen\" as the \"LastName\" in the \"Persons\" table?",
+    "options": [
+      "INSERT ('Olsen') INTO Persons (LastName)",
+      "INSERT INTO Persons ('Olsen') INTO LastName",
+      "INSERT INTO Persons (LastName) VALUES ('Olsen')"
+    ],
+    "answer": "INSERT INTO Persons (LastName) VALUES ('Olsen')"
+  },
+  {
+    "id": 18,
+    "question": "How can you change \"Hansen\" into \"Nilsen\" in the \"LastName\" column in the Persons table?",
+    "options": [
+      "MODIFY Persons SET LastName='Hansen' INTO LastName='Nilsen",
+      "UPDATE Persons SET LastName='Nilsen' WHERE LastName='Hansen'",
+      "MODIFY Persons SET LastName='Nilsen' WHERE LastName='Hansen'",
+      "UPDATE Persons SET LastName='Hansen' INTO LastName='Nilsen'"
+    ],
+    "answer": "UPDATE Persons SET LastName='Nilsen' WHERE LastName='Hansen'"
+  },
+  {
+    "id": 19,
+    "question": "With MySQL, how can you delete the records where the \"FirstName\" is \"Peter\" in the Persons Table?",
+    "options": [
+      "DELETE FirstName='Peter' FROM Persons",
+      "DELETE FROM Persons WHERE FirstName = 'Peter'",
+      "DELETE ROW FirstName='Peter' FROM Persons"
+    ],
+    "answer": "DELETE FROM Persons WHERE FirstName = 'Peter'"
+  },
+  {
+    "id": 20,
+    "question": "With MySQL, how can you return the number of records in the \"Persons\" table?",
+    "options": [
+      "SELECT LEN(*) FROM Persons",
+      "SELECT NO(*) FROM Persons",
+      "SELECT COLUMNS(*) FROM Persons",
+      "SELECT COUNT(*) FROM Persons"
+    ],
+    "answer": "SELECT COUNT(*) FROM Persons"
+  },
+  {
+    "id": 21,
+    "question": "What are the supported types of joins in MySQL?",
+    "options": [
+      "INNER JOIN, LEFT JOIN, RIGHT JOIN, CROSS JOIN",
+      "INNER JOIN, OUTER JOIN, LEFT JOIN, RIGHT JOIN"
+    ],
+    "answer": "INNER JOIN, LEFT JOIN, RIGHT JOIN, CROSS JOIN"
+  },
+  {
+    "id": 22,
+    "question": "Which operator is used to select values within a given range?",
+    "options": [
+      "RANGE",
+      "UNION",
+      "BETWEEN",
+      "IN"
+    ],
+    "answer": "BETWEEN"
+  },
+  {
+    "id": 23,
+    "question": "The NOT NULL constraint enforces a column to not accept NULL values.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 24,
+    "question": "Which operator is used to search for a specified pattern in a column?",
+    "options": [
+      "LIKE",
+      "FROM",
+      "GET"
+    ],
+    "answer": "LIKE"
+  },
+  {
+    "id": 25,
+    "question": "Which MySQL statement is used to create a database table called 'Customers'?",
+    "options": [
+      "CREATE TABLE Customers",
+      "CREATE DB Customers",
+      "CREATE DATABASE TAB Customers",
+      "CREATE DATABASE TABLE Customers"
+    ],
+    "answer": "CREATE TABLE Customers"
+  }
+]

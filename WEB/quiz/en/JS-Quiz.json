@@ -1,0 +1,259 @@
+[
+  {
+    "id": 1,
+    "question": "Inside which HTML element do we put the JavaScript?",
+    "options": [
+      "<javascript>",
+      "<script>",
+      "<js>",
+      "<scripting>"
+    ],
+    "answer": "<script>"
+  },
+  {
+    "id": 2,
+    "question": "What is the correct JavaScript syntax to change the content of the HTML element below?\n\n<p id=\"demo\">This is a demonstration.</p>",
+    "options": [
+      "document.getElementByName(\"p\").innerHTML = \"Hello World!\";",
+      "document.getElementById(\"demo\").innerHTML = \"Hello World!\";",
+      "document.getElement(\"p\").innerHTML = \"Hello World!\";",
+      "#demo.innerHTML = \"Hello World!\";"
+    ],
+    "answer": "document.getElementById(\"demo\").innerHTML = \"Hello World!\";"
+  },
+  {
+    "id": 3,
+    "question": "Where is the correct place to insert a JavaScript?",
+    "options": [
+      "Both the <head> section and the <body> section are correct",
+      "The <body> section",
+      "The <head> section"
+    ],
+    "answer": "Both the <head> section and the <body> section are correct"
+  },
+  {
+    "id": 4,
+    "question": "What is the correct syntax for referring to an external script called \"xxx.js\"?",
+    "options": [
+      "<script src=\"xxx.js\">",
+      "<script name=\"xxx.js\">",
+      "<script href=\"xxx.js\">"
+    ],
+    "answer": "<script src=\"xxx.js\">"
+  },
+  {
+    "id": 5,
+    "question": "The external JavaScript file must contain the <script> tag.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 6,
+    "question": "How do you write \"Hello World\" in an alert box?",
+    "options": [
+      "alertBox(\"Hello World\");",
+      "alert(\"Hello World\");",
+      "msgBox(\"Hello World\");",
+      "msg(\"Hello World\");"
+    ],
+    "answer": "alert(\"Hello World\");"
+  },
+  {
+    "id": 7,
+    "question": "How do you create a function in JavaScript?",
+    "options": [
+      "function:myFunction()",
+      "function = myFunction()",
+      "function myFunction()"
+    ],
+    "answer": "function myFunction()"
+  },
+  {
+    "id": 8,
+    "question": "How do you call a function named \"myFunction\"?",
+    "options": [
+      "myFunction()",
+      "call myFunction()",
+      "call function myFunction()"
+    ],
+    "answer": "myFunction()"
+  },
+  {
+    "id": 9,
+    "question": "How to write an IF statement in JavaScript?",
+    "options": [
+      "if i = 5 then",
+      "if i = 5",
+      "if (i == 5)",
+      "if i == 5 then"
+    ],
+    "answer": "if (i == 5)"
+  },
+  {
+    "id": 10,
+    "question": "How to write an IF statement for executing some code if \"i\" is NOT equal to 5?",
+    "options": [
+      "if i =! 5 then",
+      "if (i <> 5)",
+      "if (i != 5)",
+      "if i <> 5"
+    ],
+    "answer": "if (i != 5)"
+  },
+  {
+    "id": 11,
+    "question": "How does a WHILE loop start?",
+    "options": [
+      "while (i <= 10; i++)",
+      "while (i <= 10)",
+      "while i = 1 to 10"
+    ],
+    "answer": "while (i <= 10)"
+  },
+  {
+    "id": 12,
+    "question": "How does a FOR loop start?",
+    "options": [
+      "for i = 1 to 5",
+      "for (i <= 5; i++)",
+      "for (i = 0; i <= 5; i++)",
+      "for (i = 0; i <= 5)"
+    ],
+    "answer": "for (i = 0; i <= 5; i++)"
+  },
+  {
+    "id": 13,
+    "question": "How can you add a comment in a JavaScript?",
+    "options": [
+      "",
+      "//This is a comment",
+      "'This is a comment"
+    ],
+    "answer": "//This is a comment"
+  },
+  {
+    "id": 14,
+    "question": "How to insert a comment that has more than one line?",
+    "options": [
+      "/*This comment has\nmore than one line*/",
+      "",
+      "//This comment has\nmore than one line//"
+    ],
+    "answer": "/*This comment has\nmore than one line*/"
+  },
+  {
+    "id": 15,
+    "question": "What is the correct way to write a JavaScript array?",
+    "options": [
+      "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+      "var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")",
+      "var colors = \"red\", \"green\", \"blue\"",
+      "var colors = [\"red\", \"green\", \"blue\"]"
+    ],
+    "answer": "var colors = [\"red\", \"green\", \"blue\"]"
+  },
+  {
+    "id": 16,
+    "question": "How do you round the number 7.25, to the nearest integer?",
+    "options": [
+      "Math.round(7.25)",
+      "rnd(7.25)",
+      "Math.rnd(7.25)",
+      "round(7.25)"
+    ],
+    "answer": "Math.round(7.25)"
+  },
+  {
+    "id": 17,
+    "question": "How do you find the number with the highest value of x and y?",
+    "options": [
+      "Math.max(x, y)",
+      "Math.ceil(x, y)",
+      "top(x, y)",
+      "ceil(x, y)"
+    ],
+    "answer": "Math.max(x, y)"
+  },
+  {
+    "id": 18,
+    "question": "What is the correct JavaScript syntax for opening a new window called \"w2\" ?",
+    "options": [
+      "w2 = window.new(\"http://www.w3schools.com\");",
+      "w2 = window.open(\"http://www.w3schools.com\");"
+    ],
+    "answer": "w2 = window.open(\"http://www.w3schools.com\");"
+  },
+  {
+    "id": 19,
+    "question": "JavaScript is the same as Java.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 20,
+    "question": "Which is NOT a legal keyword to declare a variable in JavaScript?",
+    "options": [
+      "constant",
+      "var",
+      "let"
+    ],
+    "answer": "constant"
+  },
+  {
+    "id": 21,
+    "question": "Which event occurs when the user clicks on an HTML element?",
+    "options": [
+      "onchange",
+      "onclick",
+      "onmouseover",
+      "onmouseclick"
+    ],
+    "answer": "onclick"
+  },
+  {
+    "id": 22,
+    "question": "How do you declare a JavaScript variable?",
+    "options": [
+      "v carName;",
+      "var carName;",
+      "variable carName;"
+    ],
+    "answer": "var carName;"
+  },
+  {
+    "id": 23,
+    "question": "Which operator is used to assign a value to a variable?",
+    "options": [
+      "=",
+      "-",
+      "x",
+      "*"
+    ],
+    "answer": "="
+  },
+  {
+    "id": 24,
+    "question": "What will the following code return: Boolean(10 > 9)",
+    "options": [
+      "false",
+      "true",
+      "NaN"
+    ],
+    "answer": "true"
+  },
+  {
+    "id": 25,
+    "question": "Is JavaScript case-sensitive?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  }
+]

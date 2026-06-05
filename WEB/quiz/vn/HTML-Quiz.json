@@ -1,0 +1,417 @@
+[
+  {
+    "id": 1,
+    "question": "HTML là viết tắt của từ gì?",
+    "options": [
+      "Hyper Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyperlinks and Text Markup Language"
+    ],
+    "answer": "Hyper Text Markup Language"
+  },
+  {
+    "id": 2,
+    "question": "Ai là người tạo ra các tiêu chuẩn Web?",
+    "options": [
+      "The World Wide Web Consortium",
+      "Mozilla",
+      "Microsoft",
+      "Google"
+    ],
+    "answer": "The World Wide Web Consortium"
+  },
+  {
+    "id": 3,
+    "question": "Chọn phần tử HTML đúng cho thẻ heading lớn nhất:",
+    "options": [
+      "<h1>",
+      "<head>",
+      "<heading>",
+      "<h6>"
+    ],
+    "answer": "<h1>"
+  },
+  {
+    "id": 4,
+    "question": "Phần tử HTML đúng để chèn ngắt dòng là gì?",
+    "options": [
+      "<br>",
+      "<break>",
+      "<lb>"
+    ],
+    "answer": "<br>"
+  },
+  {
+    "id": 5,
+    "question": "Mã HTML đúng để thêm màu nền là gì?",
+    "options": [
+      "<body style=\"background-color:yellow;\">",
+      "<background>yellow</background>",
+      "<body bg=\"yellow\">"
+    ],
+    "answer": "<body style=\"background-color:yellow;\">"
+  },
+  {
+    "id": 6,
+    "question": "Chọn phần tử HTML đúng để định nghĩa văn bản quan trọng",
+    "options": [
+      "<strong>",
+      "<b>",
+      "<i>",
+      "<important>"
+    ],
+    "answer": "<strong>"
+  },
+  {
+    "id": 7,
+    "question": "Chọn phần tử HTML đúng để định nghĩa văn bản được nhấn mạnh",
+    "options": [
+      "<em>",
+      "<i>",
+      "<italic>"
+    ],
+    "answer": "<em>"
+  },
+  {
+    "id": 8,
+    "question": "Mã HTML đúng để tạo siêu liên kết (hyperlink) là gì?",
+    "options": [
+      "<a href=\"http://www.w3schools.com\">W3Schools</a>",
+      "<a url=\"http://www.w3schools.com\">W3Schools.com</a>",
+      "<a>http://www.w3schools.com</a>",
+      "<a name=\"http://www.w3schools.com\">W3Schools.com</a>"
+    ],
+    "answer": "<a href=\"http://www.w3schools.com\">W3Schools</a>"
+  },
+  {
+    "id": 9,
+    "question": "Ký tự nào được sử dụng để chỉ định thẻ đóng (end tag)?",
+    "options": [
+      "/",
+      "<",
+      "*",
+      "^"
+    ],
+    "answer": "/"
+  },
+  {
+    "id": 10,
+    "question": "Làm thế nào bạn có thể mở một liên kết trong một tab/cửa sổ trình duyệt mới?",
+    "options": [
+      "<a href=\"url\" target=\"new\">",
+      "<a href=\"url\" new>",
+      "<a href=\"url\" target=\"_blank\">"
+    ],
+    "answer": "<a href=\"url\" target=\"_blank\">"
+  },
+  {
+    "id": 11,
+    "question": "Phân tử nào trong số này đều là các phần tử <table>?",
+    "options": [
+      "<table><tr><td>",
+      "<table><tr><tt>",
+      "<table><head><tfoot>",
+      "<thead><body><tr>"
+    ],
+    "answer": "<table><tr><td>"
+  },
+  {
+    "id": 12,
+    "question": "Các phần tử inline thường được hiển thị mà không bắt đầu một dòng mới.",
+    "options": [
+      "True (Đúng)",
+      "False (Sai)"
+    ],
+    "answer": "True (Đúng)"
+  },
+  {
+    "id": 13,
+    "question": "Làm thế nào bạn có thể tạo một danh sách có đánh số (numbered list)?",
+    "options": [
+      "<ul>",
+      "<list>",
+      "<dl>",
+      "<ol>"
+    ],
+    "answer": "<ol>"
+  },
+  {
+    "id": 14,
+    "question": "Làm thế nào bạn có thể tạo một danh sách có dấu đầu dòng (bulleted list)?",
+    "options": [
+      "<ol>",
+      "<list>",
+      "<dl>",
+      "<ul>"
+    ],
+    "answer": "<ul>"
+  },
+  {
+    "id": 15,
+    "question": "Mã HTML đúng để tạo một checkbox là gì?",
+    "options": [
+      "<input type=\"checkbox\">",
+      "<input type=\"check\">",
+      "<checkbox>",
+      "<check>"
+    ],
+    "answer": "<input type=\"checkbox\">"
+  },
+  {
+    "id": 16,
+    "question": "Mã HTML đúng để tạo một trường nhập văn bản (text input field) là gì?",
+    "options": [
+      "<input type=\"text\">",
+      "<textinput type=\"text\">",
+      "<input type=\"textfield\">",
+      "<textfield>"
+    ],
+    "answer": "<input type=\"text\">"
+  },
+  {
+    "id": 17,
+    "question": "Mã HTML đúng để tạo một danh sách thả xuống (drop-down list) là gì?",
+    "options": [
+      "<input type=\"dropdown\">",
+      "<select>",
+      "<list>",
+      "<input type=\"list\">"
+    ],
+    "answer": "<select>"
+  },
+  {
+    "id": 18,
+    "question": "Mã HTML đúng để tạo một vùng văn bản (text area) là gì?",
+    "options": [
+      "<input type=\"textbox\">",
+      "<input type=\"textarea\">",
+      "<textarea>"
+    ],
+    "answer": "<textarea>"
+  },
+  {
+    "id": 19,
+    "question": "Mã HTML đúng để chèn một hình ảnh là gì?",
+    "options": [
+      "<img src=\"image.gif\" alt=\"MyImage\">",
+      "<img alt=\"MyImage\">image.gif</img>",
+      "<image src=\"image.gif\" alt=\"MyImage\">",
+      "<img href=\"image.gif\" alt=\"MyImage\">"
+    ],
+    "answer": "<img src=\"image.gif\" alt=\"MyImage\">"
+  },
+  {
+    "id": 20,
+    "question": "Mã HTML đúng để chèn một hình nền (background image) là gì?",
+    "options": [
+      "<body style=\"background-image:url(background.gif)\">",
+      "<body bg=\"background.gif\">",
+      "<background img=\"background.gif\">"
+    ],
+    "answer": "<body style=\"background-image:url(background.gif)\">"
+  },
+  {
+    "id": 21,
+    "question": "Thẻ <iframe> được sử dụng để hiển thị một trang web bên trong một trang web.",
+    "options": [
+      "True (Đúng)",
+      "Không có thẻ nào là <iframe>",
+      "False (Sai)"
+    ],
+    "answer": "True (Đúng)"
+  },
+  {
+    "id": 22,
+    "question": "Chú thích (comments) trong HTML bắt đầu bằng ",
+    "options": [
+      "True (Đúng)",
+      "False (Sai)"
+    ],
+    "answer": "True (Đúng)"
+  },
+  {
+    "id": 23,
+    "question": "Các phần tử block thường được hiển thị mà không bắt đầu một dòng mới.",
+    "options": [
+      "True (Đúng)",
+      "False (Sai)"
+    ],
+    "answer": "False (Sai)"
+  },
+  {
+    "id": 24,
+    "question": "Phần tử HTML nào định nghĩa tiêu đề của một tài liệu?",
+    "options": [
+      "<title>",
+      "<head>",
+      "<meta>"
+    ],
+    "answer": "<title>"
+  },
+  {
+    "id": 25,
+    "question": "Thuộc tính HTML nào chỉ định văn bản thay thế (alternate text) cho một hình ảnh, nếu hình ảnh không thể hiển thị?",
+    "options": [
+      "alt",
+      "src",
+      "title",
+      "longdesc"
+    ],
+    "answer": "alt"
+  },
+  {
+    "id": 26,
+    "question": "Doctype nào đúng cho HTML5?",
+    "options": [
+      "<!DOCTYPE html>",
+      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 5.0//EN\" \"http://www.w3.org/TR/html5/strict.dtd\">",
+      "<!DOCTYPE HTML5>"
+    ],
+    "answer": "<!DOCTYPE html>"
+  },
+  {
+    "id": 27,
+    "question": "Phần tử HTML nào được sử dụng để chỉ định phần chân trang (footer) cho một tài liệu hoặc một phần (section)?",
+    "options": [
+      "<footer>",
+      "<bottom>",
+      "<section>"
+    ],
+    "answer": "<footer>"
+  },
+  {
+    "id": 28,
+    "question": "Trong HTML, bạn có thể nhúng trực tiếp các phần tử SVG vào một trang HTML.",
+    "options": [
+      "True (Đúng)",
+      "False (Sai)"
+    ],
+    "answer": "True (Đúng)"
+  },
+  {
+    "id": 29,
+    "question": "Phần tử HTML đúng để phát các file video là gì?",
+    "options": [
+      "<media>",
+      "<movie>",
+      "<video>"
+    ],
+    "answer": "<video>"
+  },
+  {
+    "id": 30,
+    "question": "Phần tử HTML đúng để phát các file âm thanh (audio) là gì?",
+    "options": [
+      "<audio>",
+      "<mp3>",
+      "<sound>"
+    ],
+    "answer": "<audio>"
+  },
+  {
+    "id": 31,
+    "question": "Thuộc tính toàn cục (global attribute) của HTML, \"contenteditable\" được sử dụng để:",
+    "options": [
+      "Chỉ định xem nội dung của một phần tử có thể chỉnh sửa được hay không",
+      "Trả về vị trí xuất hiện đầu tiên của nội dung bên trong một chuỗi",
+      "Cập nhật nội dung từ server",
+      "Chỉ định một context menu cho một phần tử. Menu xuất hiện khi người dùng click chuột phải vào phần tử"
+    ],
+    "answer": "Chỉ định xem nội dung của một phần tử có thể chỉnh sửa được hay không"
+  },
+  {
+    "id": 32,
+    "question": "Trong HTML, onblur và onfocus là:",
+    "options": [
+      "Thuộc tính sự kiện (Event attributes)",
+      "Thuộc tính kiểu (Style attributes)",
+      "Phần tử HTML (HTML elements)"
+    ],
+    "answer": "Thuộc tính sự kiện (Event attributes)"
+  },
+  {
+    "id": 33,
+    "question": "Đồ họa được định nghĩa bằng SVG có định dạng nào?",
+    "options": [
+      "HTML",
+      "CSS",
+      "XML"
+    ],
+    "answer": "XML"
+  },
+  {
+    "id": 34,
+    "question": "Phần tử <canvas> của HTML được sử dụng để:",
+    "options": [
+      "tạo các phần tử có thể kéo thả (draggable elements)",
+      "vẽ đồ họa (draw graphics)",
+      "hiển thị các bản ghi cơ sở dữ liệu",
+      "thao tác dữ liệu trong MySQL"
+    ],
+    "answer": "vẽ đồ họa (draw graphics)"
+  },
+  {
+    "id": 35,
+    "question": "Trong HTML, thuộc tính nào được sử dụng để chỉ định rằng một trường nhập liệu (input field) bắt buộc phải được điền?",
+    "options": [
+      "required",
+      "formvalidate",
+      "placeholder",
+      "validate"
+    ],
+    "answer": "required"
+  },
+  {
+    "id": 36,
+    "question": "Input type nào định nghĩa một điều khiển thanh trượt (slider control)?",
+    "options": [
+      "slider",
+      "controls",
+      "range",
+      "search"
+    ],
+    "answer": "range"
+  },
+  {
+    "id": 37,
+    "question": "Phần tử HTML nào được sử dụng để hiển thị một phép đo vô hướng (scalar measurement) trong một phạm vi?",
+    "options": [
+      "<measure>",
+      "<range>",
+      "<gauge>",
+      "<meter>"
+    ],
+    "answer": "<meter>"
+  },
+  {
+    "id": 38,
+    "question": "Phần tử HTML nào định nghĩa các liên kết điều hướng (navigation links)?",
+    "options": [
+      "<nav>",
+      "<navigate>",
+      "<navigation>"
+    ],
+    "answer": "<nav>"
+  },
+  {
+    "id": 39,
+    "question": "Trong HTML, phần tử <aside> định nghĩa điều gì?",
+    "options": [
+      "Nội dung nằm ngoài nội dung chính của trang",
+      "Một danh sách điều hướng được hiển thị ở bên trái của trang",
+      "Bộ ký tự ASCII; để gửi thông tin giữa các máy tính trên Internet"
+    ],
+    "answer": "Nội dung nằm ngoài nội dung chính của trang"
+  },
+  {
+    "id": 40,
+    "question": "Phần tử HTML nào được sử dụng để chỉ định phần đầu (header) cho một tài liệu hoặc một phần (section)?",
+    "options": [
+      "<section>",
+      "<header>",
+      "<top>",
+      "<head>"
+    ],
+    "answer": "<header>"
+  }
+]

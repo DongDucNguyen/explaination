@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "question": "XML là viết tắt của từ gì?",
+    "options": [
+      "X-Markup Language",
+      "Example Markup Language",
+      "eXtra Modern Link"
+    ],
+    "answer": "eXtensible Markup Language"
+  },
+  {
+    "id": 2,
+    "question": "Có một cách để mô tả dữ liệu XML, đó là gì?",
+    "options": [
+      "XML sử dụng description node để mô tả dữ liệu",
+      "XML sử dụng XSL để mô tả dữ liệu"
+    ],
+    "answer": "XML sử dụng DTD để mô tả dữ liệu"
+  },
+  {
+    "id": 3,
+    "question": "Mục tiêu của XML là thay thế HTML",
+    "options": [
+      "True (Đúng)"
+    ],
+    "answer": "False (Sai)"
+  },
+  {
+    "id": 4,
+    "question": "Cú pháp chính xác của khai báo định nghĩa phiên bản XML là gì?",
+    "options": [
+      "<xml version=\"1.0\" />",
+      "<?xml version=\"1.0\" />"
+    ],
+    "answer": "<?xml version=\"1.0\"?>"
+  },
+  {
+    "id": 5,
+    "question": "DTD là viết tắt của từ gì?",
+    "options": [
+      "Direct Type Definition",
+      "Do The Dance",
+      "Dynamic Type Definition"
+    ],
+    "answer": "Document Type Definition"
+  },
+  {
+    "id": 6,
+    "question": "Đây có phải là một tài liệu XML \"well formed\" (đúng cấu trúc) không?\n\n<?xml version=\"1.0\"?>\n<note>\n<to>Tove</to>\n<from>Jani</from>\n<heading>Reminder</heading>\n<body>Don't forget me this weekend!</body>\n</note>",
+    "options": [
+      "Không"
+    ],
+    "answer": "Có"
+  },
+  {
+    "id": 7,
+    "question": "Đây có phải là một tài liệu XML \"well formed\" (đúng cấu trúc) không?\n\n<?xml version=\"1.0\"?>\n<to>Tove</to>\n<from>Jani</from>\n<heading>Reminder</heading>\n<body>Don't forget me this weekend!</body>",
+    "options": [
+      "Có"
+    ],
+    "answer": "Không"
+  },
+  {
+    "id": 8,
+    "question": "Khẳng định nào sau đây là đúng?",
+    "options": [
+      "Tất cả các khẳng định đều đúng",
+      "Tất cả các phần tử XML phải là chữ thường",
+      "Tất cả các tài liệu XML phải có một DTD"
+    ],
+    "answer": "Tất cả các phần tử XML phải được đóng đúng cách"
+  },
+  {
+    "id": 9,
+    "question": "Khẳng định nào sau đây KHÔNG đúng?",
+    "options": [
+      "Các thẻ XML phân biệt chữ hoa chữ thường",
+      "Các phần tử XML phải được lồng nhau đúng cách",
+      "Các tài liệu XML phải có một thẻ root"
+    ],
+    "answer": "Khoảng trắng không được bảo lưu trong XML"
+  },
+  {
+    "id": 10,
+    "question": "XML bảo lưu các khoảng trắng",
+    "options": [
+      "False (Sai)"
+    ],
+    "answer": "True (Đúng)"
+  },
+  {
+    "id": 11,
+    "question": "Đây có phải là một tài liệu XML \"well formed\" (đúng cấu trúc) không?\n\n<?xml version=\"1.0\"?>\n<note>\n<to age=\"29\">Tove</to>\n<from>Jani</from>\n</note>",
+    "options": [
+      "Không"
+    ],
+    "answer": "Có"
+  },
+  {
+    "id": 12,
+    "question": "Đây có phải là một tài liệu XML \"well formed\" (đúng cấu trúc) không?\n\n<?xml version=\"1.0\"?>\n<note>\n<to age=29>Tove</to>\n<from>Jani</from>\n</note>",
+    "options": [
+      "Có"
+    ],
+    "answer": "Không"
+  },
+  {
+    "id": 13,
+    "question": "Các phần tử XML không thể để trống",
+    "options": [
+      "True (Đúng)"
+    ],
+    "answer": "False (Sai)"
+  },
+  {
+    "id": 14,
+    "question": "Tên nào không phải là tên hợp lệ cho một phần tử XML?",
+    "options": [
+      "Cả 3 tên đều không hợp lệ",
+      "<Note>",
+      "<h1>"
+    ],
+    "answer": "<1dollar>"
+  },
+  {
+    "id": 15,
+    "question": "Tên nào không phải là tên hợp lệ cho một phần tử XML?",
+    "options": [
+      "<NAME>",
+      "Cả 3 tên đều không hợp lệ",
+      "<age>"
+    ],
+    "answer": "<first name>"
+  },
+  {
+    "id": 16,
+    "question": "Tên nào là tên hợp lệ cho một phần tử XML?",
+    "options": [
+      "<7eleven>",
+      "<xmldocument>",
+      "<phone number>"
+    ],
+    "answer": "<Name>"
+  },
+  {
+    "id": 17,
+    "question": "Các giá trị thuộc tính (attribute values) XML luôn phải được đặt trong dấu ngoặc kép",
+    "options": [
+      "False (Sai)"
+    ],
+    "answer": "True (Đúng)"
+  },
+  {
+    "id": 18,
+    "question": "XSL là viết tắt của từ gì?",
+    "options": [
+      "eXtensible Style Listing",
+      "eXpandable Style Language",
+      "eXtra Style Language"
+    ],
+    "answer": "eXtensible Stylesheet Language"
+  },
+  {
+    "id": 19,
+    "question": "Cách chính xác để tham chiếu đến một stylesheet có tên \"mystyle.xsl\" là gì?",
+    "options": [
+      "<link type=\"text/xsl\" href=\"mystyle.xsl\" />",
+      "<stylesheet type=\"text/xsl\" href=\"mystyle.xsl\" />"
+    ],
+    "answer": "<?xml-stylesheet type=\"text/xsl\" href=\"mystyle.xsl\" ?>"
+  },
+  {
+    "id": 20,
+    "question": "Để XML parser (bộ phân tích XML) bỏ qua một phần nhất định trong tài liệu XML của bạn, cú pháp nào là chính xác?",
+    "options": [
+      "<CDATA> Text to be ignored </CDATA>",
+      "<xml:CDATA[ Text to be ignored ]>",
+      "<PCDATA> Text to be ignored </PCDATA>"
+    ],
+    "answer": "<![CDATA[ Text to be ignored ]]>"
+  },
+  {
+    "id": 21,
+    "question": "Khẳng định nào sau đây là đúng?",
+    "options": [
+      "Các thuộc tính luôn phải xuất hiện",
+      "Các thuộc tính phải xuất hiện theo thứ tự đã định nghĩa"
+    ],
+    "answer": "Không có khẳng định nào trong hai khẳng định còn lại là đúng"
+  },
+  {
+    "id": 22,
+    "question": "Các XML entities được sử dụng để làm gì?",
+    "options": [
+      "Các entities định nghĩa các phím tắt cho standard elements",
+      "Các entities định nghĩa các phím tắt cho standard attributes"
+    ],
+    "answer": "Các entities định nghĩa các phím tắt cho văn bản tiêu chuẩn hoặc các ký tự đặc biệt"
+  },
+  {
+    "id": 23,
+    "question": "Đoạn XML nào sau đây là \"well-formed\" (đúng cấu trúc)?",
+    "options": [
+      "<customer id=3456><name>John Smith</name></customer>"
+    ],
+    "answer": "<customer id=\"3456\"><address/><zip code=\"3456\"/></customer>"
+  },
+  {
+    "id": 24,
+    "question": "XML instance là gì?",
+    "options": [
+      "Một phần tử XML",
+      "Một thuộc tính XML"
+    ],
+    "answer": "Một tài liệu XML"
+  },
+  {
+    "id": 25,
+    "question": "Đối tượng XML DOM nào đại diện cho một node trong cây node (node tree)?",
+    "options": [
+      "Đối tượng nodeList",
+      "Đối tượng document"
+    ],
+    "answer": "Đối tượng node"
+  }
+]

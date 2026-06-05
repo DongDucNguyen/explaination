@@ -1,0 +1,268 @@
+[
+  {
+    "id": 1,
+    "question": "Bootstrap 3 is mobile-first.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 2,
+    "question": "Which class provides a responsive fixed width container?",
+    "options": [
+      ".container-fluid",
+      ".container-fixed",
+      ".container"
+    ],
+    "answer": ".container"
+  },
+  {
+    "id": 3,
+    "question": "Which class provides a full width container, spanning the entire width of the viewport?",
+    "options": [
+      ".container-fluid",
+      ".container-fixed",
+      ".container"
+    ],
+    "answer": ".container-fluid"
+  },
+  {
+    "id": 4,
+    "question": "The Bootstrap grid system is based on how many columns?",
+    "options": [
+      "12",
+      "9",
+      "3",
+      "6"
+    ],
+    "answer": "12"
+  },
+  {
+    "id": 5,
+    "question": "Which class adds zebra-stripes to a table?",
+    "options": [
+      ".table-striped",
+      ".table-zebra",
+      ".table-bordered",
+      ".even and .odd"
+    ],
+    "answer": ".table-striped"
+  },
+  {
+    "id": 6,
+    "question": "Which class shapes an image to a circle?",
+    "options": [
+      ".img-round",
+      ".img-circle",
+      ".img-thumbnail",
+      ".img-rounded"
+    ],
+    "answer": ".img-circle"
+  },
+  {
+    "id": 7,
+    "question": "Which class is used to create a big box for calling extra attention?",
+    "options": [
+      ".bigbox",
+      ".jumbotron",
+      ".container"
+    ],
+    "answer": ".jumbotron"
+  },
+  {
+    "id": 8,
+    "question": "Which button class is used to create a large button?",
+    "options": [
+      ".btn-l",
+      ".btn-large",
+      ".btn-lg",
+      ".btn-xl"
+    ],
+    "answer": ".btn-lg"
+  },
+  {
+    "id": 9,
+    "question": "Which class is used to create a button group?",
+    "options": [
+      ".btn-group",
+      ".group-btn",
+      ".button-group",
+      ".group-button"
+    ],
+    "answer": ".btn-group"
+  },
+  {
+    "id": 10,
+    "question": "How can you insert a search icon?",
+    "options": [
+      "<span class=\"glyphicon-search\"></span>",
+      "<span class=\"glyphicon glyphicon-search\"></span>",
+      "<span class=\"glyphicon search\"></span>",
+      "<span class=\"glyph glyph-search\"></span>"
+    ],
+    "answer": "<span class=\"glyphicon glyphicon-search\"></span>"
+  },
+  {
+    "id": 11,
+    "question": "Which class is used to create a badge?",
+    "options": [
+      ".badge",
+      ".tag",
+      ".flag",
+      ".label"
+    ],
+    "answer": ".badge"
+  },
+  {
+    "id": 12,
+    "question": "Which class is used to create a basic pagination?",
+    "options": [
+      ".page",
+      ".navigation",
+      ".pages",
+      ".pagination"
+    ],
+    "answer": ".pagination"
+  },
+  {
+    "id": 13,
+    "question": "Which class is used to create a basic list group?",
+    "options": [
+      ".list-group",
+      ".group-list",
+      ".grouped-list"
+    ],
+    "answer": ".list-group"
+  },
+  {
+    "id": 14,
+    "question": "Which class adds a heading to a panel?",
+    "options": [
+      ".panel-header",
+      ".panel-heading",
+      ".panel-head",
+      ".panel-footer"
+    ],
+    "answer": ".panel-heading"
+  },
+  {
+    "id": 15,
+    "question": "Which class indicates a dropdown menu?",
+    "options": [
+      ".select",
+      ".dropdown",
+      ".dropdown-list"
+    ],
+    "answer": ".dropdown"
+  },
+  {
+    "id": 16,
+    "question": "A standard navigation tab is created with:",
+    "options": [
+      "<ul class=\"nav nav-navbar\">",
+      "<ul class=\"navigation-tabs\">",
+      "<ul class=\"nav nav-tabs\">",
+      "<ul class=\"nav tabs\">"
+    ],
+    "answer": "<ul class=\"nav nav-tabs\">"
+  },
+  {
+    "id": 17,
+    "question": "A standard navigation bar is created with:",
+    "options": [
+      "<nav class=\"navbar navbar-default\">",
+      "<nav class=\"nav navbar\">",
+      "<nav class=\"navbar default-navbar\">",
+      "<nav class=\"navigationbar navbar-default\">"
+    ],
+    "answer": "<nav class=\"navbar navbar-default\">"
+  },
+  {
+    "id": 18,
+    "question": "Which class is used to create a black navigation bar?",
+    "options": [
+      ".navbar-black",
+      ".navbar-default",
+      ".navbar-dark",
+      ".navbar-inverse"
+    ],
+    "answer": ".navbar-inverse"
+  },
+  {
+    "id": 19,
+    "question": "Which plugin is used to cycle through elements, like a slideshow?",
+    "options": [
+      "Orbit",
+      "Carousel",
+      "Slideshow",
+      "Scrollspy"
+    ],
+    "answer": "Carousel"
+  },
+  {
+    "id": 20,
+    "question": "Which plugin is used to create a modal window?",
+    "options": [
+      "Modal",
+      "Popup",
+      "Dialog Box",
+      "Window"
+    ],
+    "answer": "Modal"
+  },
+  {
+    "id": 21,
+    "question": "Which plugin is used to create a tooltip?",
+    "options": [
+      "Tooltip",
+      "Modal",
+      "Popup",
+      "Dialog Box"
+    ],
+    "answer": "Tooltip"
+  },
+  {
+    "id": 22,
+    "question": "Which contextual class indicates a succesful or positive action?",
+    "options": [
+      ".text-success",
+      ".text-info",
+      ".text-warning",
+      ".text-primary"
+    ],
+    "answer": ".text-success"
+  },
+  {
+    "id": 23,
+    "question": "Which contextual class indicates a dangerous or potentially negative action?",
+    "options": [
+      ".text-danger",
+      ".text-info",
+      ".text-primary",
+      ".text-warning"
+    ],
+    "answer": ".text-danger"
+  },
+  {
+    "id": 24,
+    "question": "Which class indicates uppercased text?",
+    "options": [
+      ".text-uppercase",
+      ".ucase",
+      ".text-capitalize",
+      ".uppercase"
+    ],
+    "answer": ".text-uppercase"
+  },
+  {
+    "id": 25,
+    "question": "The Bootstrap grid system works across multiple devices.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  }
+]

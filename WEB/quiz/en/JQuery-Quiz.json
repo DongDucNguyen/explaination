@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following is correct?",
+    "options": [
+      "jQuery is a JavaScript Library",
+      "jQuery is a JSON Library"
+    ],
+    "answer": "jQuery is a JavaScript Library"
+  },
+  {
+    "id": 2,
+    "question": "jQuery uses CSS selectors to select elements?",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 3,
+    "question": "Which sign does jQuery use as a shortcut for jQuery?",
+    "options": [
+      "the ? Sign",
+      "the % sign",
+      "the $ sign"
+    ],
+    "answer": "the $ sign"
+  },
+  {
+    "id": 4,
+    "question": "Look at the following selector: $(\"div\"). What does it select?",
+    "options": [
+      "All div elements",
+      "The first div element"
+    ],
+    "answer": "All div elements"
+  },
+  {
+    "id": 5,
+    "question": "Is jQuery a library for client scripting or server scripting?",
+    "options": [
+      "Client scripting",
+      "Server scripting"
+    ],
+    "answer": "Client scripting"
+  },
+  {
+    "id": 6,
+    "question": "Is it possible to use jQuery together with AJAX?",
+    "options": [
+      "No",
+      "Yes"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": 7,
+    "question": "The jQuery html() method works for both HTML and XML documents",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 8,
+    "question": "What is the correct jQuery code to set the background color of all p elements to red?",
+    "options": [
+      "$(\"p\").style(\"background-color\",\"red\");",
+      "$(\"p\").layout(\"background-color\",\"red\");",
+      "$(\"p\").manipulate(\"background-color\",\"red\");",
+      "$(\"p\").css(\"background-color\",\"red\");"
+    ],
+    "answer": "$(\"p\").css(\"background-color\",\"red\");"
+  },
+  {
+    "id": 9,
+    "question": "With jQuery, look at the following selector: $(\"div.intro\"). What does it select?",
+    "options": [
+      "The first div element with id=\"intro\"",
+      "All div elements with class=\"intro\"",
+      "The first div element with class=\"intro\"",
+      "All div elements with id=\"intro\""
+    ],
+    "answer": "All div elements with class=\"intro\""
+  },
+  {
+    "id": 10,
+    "question": "Which jQuery method is used to hide selected elements?",
+    "options": [
+      "display(none)",
+      "hide()",
+      "visible(false)",
+      "hidden()"
+    ],
+    "answer": "hide()"
+  },
+  {
+    "id": 11,
+    "question": "Which jQuery method is used to set one or more style properties for selected elements?",
+    "options": [
+      "css()",
+      "html()",
+      "style()"
+    ],
+    "answer": "css()"
+  },
+  {
+    "id": 12,
+    "question": "Which jQuery method is used to perform an asynchronous HTTP request?",
+    "options": [
+      "jQuery.ajaxSetup()",
+      "jQuery.ajaxAsync()",
+      "jQuery.ajax()"
+    ],
+    "answer": "jQuery.ajax()"
+  },
+  {
+    "id": 13,
+    "question": "What is the correct jQuery code for making all div elements 100 pixels high?",
+    "options": [
+      "$(\"div\").height=\"100\"",
+      "$(\"div\").height(100)",
+      "$(\"div\").yPos(100)"
+    ],
+    "answer": "$(\"div\").height(100)"
+  },
+  {
+    "id": 14,
+    "question": "Which statement is true?",
+    "options": [
+      "To use jQuery, you can refer to a hosted jQuery library at Google",
+      "To use jQuery, you do not have to do anything. Most browsers (Internet Explorer, Chrome, Firefox and Opera) have the jQuery library built in the browser",
+      "To use jQuery, you must buy the jQuery library at www.jquery.com"
+    ],
+    "answer": "To use jQuery, you can refer to a hosted jQuery library at Google"
+  },
+  {
+    "id": 15,
+    "question": "What scripting language is jQuery written in?",
+    "options": [
+      "JavaScript",
+      "C#",
+      "VBScript",
+      "C++"
+    ],
+    "answer": "JavaScript"
+  },
+  {
+    "id": 16,
+    "question": "Which jQuery function is used to prevent code from running, before the document is finished loading?",
+    "options": [
+      "$(document).ready()",
+      "$(document).load()",
+      "$(body).onload()"
+    ],
+    "answer": "$(document).ready()"
+  },
+  {
+    "id": 17,
+    "question": "Which jQuery method should be used to deal with name conflicts?",
+    "options": [
+      "noConflict()",
+      "nameConflict()",
+      "conflict()",
+      "noNameConflict()"
+    ],
+    "answer": "noConflict()"
+  },
+  {
+    "id": 18,
+    "question": "Which jQuery method is used to switch between adding/removing one or more classes (for CSS) from selected elements?",
+    "options": [
+      "altClass()",
+      "switchClass()",
+      "toggleClass()",
+      "switch()"
+    ],
+    "answer": "toggleClass()"
+  },
+  {
+    "id": 19,
+    "question": "Look at the following selector: $(\"div p\"). What does it select?",
+    "options": [
+      "All div elements with a p element",
+      "The first p element inside a div element",
+      "All p elements inside a div element"
+    ],
+    "answer": "All p elements inside a div element"
+  },
+  {
+    "id": 20,
+    "question": "Is jQuery a W3C standard?",
+    "options": [
+      "No",
+      "Yes"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": 21,
+    "question": "Look at the following selector: $(\"p#intro\"). What does it select?",
+    "options": [
+      "All p elements with class=\"intro\"",
+      "The p element with id=\"intro\""
+    ],
+    "answer": "The p element with id=\"intro\""
+  },
+  {
+    "id": 22,
+    "question": "Which jQuery method is used to remove selected elements?",
+    "options": [
+      "remove()",
+      "detach()",
+      "Both methods can be used"
+    ],
+    "answer": "Both methods can be used"
+  },
+  {
+    "id": 23,
+    "question": "Look at the following selector: $(\":disabled\"). What does it select?",
+    "options": [
+      "All disabled input elements",
+      "All hidden elements",
+      "All elements containing the text \"disabled\"",
+      "All elements that does not contain the text \"disabled\""
+    ],
+    "answer": "All disabled input elements"
+  },
+  {
+    "id": 24,
+    "question": "Which jQuery method returns the direct parent element of the selected element?",
+    "options": [
+      "ancestors()",
+      "parents()",
+      "ancestor()",
+      "parent()"
+    ],
+    "answer": "parent()"
+  },
+  {
+    "id": 25,
+    "question": "The jQuery animate() method can be used to animate ANY CSS property?",
+    "options": [
+      "Only properties containing numeric values",
+      "All properties except the shorthand properties",
+      "Yes"
+    ],
+    "answer": "Only properties containing numeric values"
+  }
+]

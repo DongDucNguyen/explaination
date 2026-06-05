@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "question": "What does CSS stand for?",
+    "options": [
+      "Colorful Style Sheets",
+      "Computer Style Sheets",
+      "Creative Style Sheets",
+      "Cascading Style Sheets"
+    ],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "id": 2,
+    "question": "What is the correct HTML for referring to an external style sheet?",
+    "options": [
+      "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">",
+      "<style src=\"mystyle.css\">",
+      "<stylesheet>mystyle.css</stylesheet>"
+    ],
+    "answer": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">"
+  },
+  {
+    "id": 3,
+    "question": "Where in an HTML document is the correct place to refer to an external style sheet?",
+    "options": [
+      "At the end of the document",
+      "In the <body> section",
+      "In the <head> section"
+    ],
+    "answer": "In the <head> section"
+  },
+  {
+    "id": 4,
+    "question": "Which HTML tag is used to define an internal style sheet?",
+    "options": [
+      "<script>",
+      "<style>",
+      "<css>"
+    ],
+    "answer": "<style>"
+  },
+  {
+    "id": 5,
+    "question": "Which HTML attribute is used to define inline styles?",
+    "options": [
+      "style",
+      "class",
+      "styles",
+      "font"
+    ],
+    "answer": "style"
+  },
+  {
+    "id": 6,
+    "question": "Which is the correct CSS syntax?",
+    "options": [
+      "{body;color:black;}",
+      "body:color=black;",
+      "body {color: black;}",
+      "{body:color=black;}"
+    ],
+    "answer": "body {color: black;}"
+  },
+  {
+    "id": 7,
+    "question": "How do you insert a comment in a CSS file?",
+    "options": [
+      "// this is a comment",
+      "/* this is a comment */",
+      "' this is a comment",
+      "// this is a comment //"
+    ],
+    "answer": "/* this is a comment */"
+  },
+  {
+    "id": 8,
+    "question": "Which property is used to change the background color?",
+    "options": [
+      "background-color",
+      "color",
+      "bgcolor"
+    ],
+    "answer": "background-color"
+  },
+  {
+    "id": 9,
+    "question": "How do you add a background color for all <h1> elements?",
+    "options": [
+      "h1 {background-color:#FFFFFF;}",
+      "all.h1 {background-color:#FFFFFF;}",
+      "h1.all {background-color:#FFFFFF;}"
+    ],
+    "answer": "h1 {background-color:#FFFFFF;}"
+  },
+  {
+    "id": 10,
+    "question": "Which CSS property is used to change the text color of an element?",
+    "options": [
+      "text-color",
+      "color",
+      "fgcolor"
+    ],
+    "answer": "color"
+  },
+  {
+    "id": 11,
+    "question": "Which CSS property controls the text size?",
+    "options": [
+      "font-style",
+      "text-size",
+      "font-size",
+      "text-style"
+    ],
+    "answer": "font-size"
+  },
+  {
+    "id": 12,
+    "question": "What is the correct CSS syntax for making all the <p> elements bold?",
+    "options": [
+      "p {font-weight:bold;}",
+      "p {text-size:bold;}",
+      "<p style=\"font-size:bold;\">",
+      "<p style=\"text-size:bold;\">"
+    ],
+    "answer": "p {font-weight:bold;}"
+  },
+  {
+    "id": 13,
+    "question": "How do you display hyperlinks without an underline?",
+    "options": [
+      "a {underline:none;}",
+      "a {text-decoration:none;}",
+      "a {text-decoration:no-underline;}",
+      "a {decoration:no-underline;}"
+    ],
+    "answer": "a {text-decoration:none;}"
+  },
+  {
+    "id": 14,
+    "question": "How do you make each word in a text start with a capital letter?",
+    "options": [
+      "transform:capitalize",
+      "text-style:capitalize",
+      "text-transform:capitalize",
+      "You can't do that with CSS"
+    ],
+    "answer": "text-transform:capitalize"
+  },
+  {
+    "id": 15,
+    "question": "Which property is used to change the font of an element?",
+    "options": [
+      "font-style",
+      "font-family",
+      "font-weight"
+    ],
+    "answer": "font-family"
+  },
+  {
+    "id": 16,
+    "question": "How do you make the text bold?",
+    "options": [
+      "font-weight:bold;",
+      "font:bold;",
+      "style:bold;"
+    ],
+    "answer": "font-weight:bold;"
+  },
+  {
+    "id": 17,
+    "question": "How do you display a border like this:\n\nThe top border = 10 pixels\nThe bottom border = 5 pixels\nThe left border = 20 pixels\nThe right border = 1pixel?",
+    "options": [
+      "border-width:10px 5px 20px 1px;",
+      "border-width:5px 20px 10px 1px;",
+      "border-width:10px 1px 5px 20px;",
+      "border-width:10px 20px 5px 1px;"
+    ],
+    "answer": "border-width:10px 1px 5px 20px;"
+  },
+  {
+    "id": 18,
+    "question": "Which property is used to change the left margin of an element?",
+    "options": [
+      "padding-left",
+      "indent",
+      "margin-left"
+    ],
+    "answer": "margin-left"
+  },
+  {
+    "id": 19,
+    "question": "When using the padding property; are you allowed to use negative values?",
+    "options": [
+      "No",
+      "Yes"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": 20,
+    "question": "How do you make a list that lists its items with squares?",
+    "options": [
+      "list-style-type: square;",
+      "list-type: square;",
+      "list: square;"
+    ],
+    "answer": "list-style-type: square;"
+  },
+  {
+    "id": 21,
+    "question": "How do you select an element with id 'demo'?",
+    "options": [
+      "#demo",
+      ".demo",
+      "*demo",
+      "demo"
+    ],
+    "answer": "#demo"
+  },
+  {
+    "id": 22,
+    "question": "How do you select elements with class name 'test'?",
+    "options": [
+      "#test",
+      "test",
+      "*test",
+      ".test"
+    ],
+    "answer": ".test"
+  },
+  {
+    "id": 23,
+    "question": "How do you select all p elements inside a div element?",
+    "options": [
+      "div.p",
+      "div p",
+      "div + p"
+    ],
+    "answer": "div p"
+  },
+  {
+    "id": 24,
+    "question": "How do you group selectors?",
+    "options": [
+      "Separate each selector with a comma",
+      "Separate each selector with a plus sign",
+      "Separate each selector with a space"
+    ],
+    "answer": "Separate each selector with a comma"
+  },
+  {
+    "id": 25,
+    "question": "What is the default value of the position property?",
+    "options": [
+      "fixed",
+      "absolute",
+      "static",
+      "relative"
+    ],
+    "answer": "static"
+  }
+]

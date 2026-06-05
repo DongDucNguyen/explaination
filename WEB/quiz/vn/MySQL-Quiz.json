@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "question": "MySQL là gì?",
+    "options": [
+      "Được phát triển, phân phối và hỗ trợ bởi Oracle Corporation",
+      "Một hệ quản trị cơ sở dữ liệu quan hệ",
+      "Đa nền tảng, mã nguồn mở và miễn phí",
+      "Tất cả các lựa chọn đều đúng"
+    ],
+    "answer": "Tất cả các lựa chọn đều đúng"
+  },
+  {
+    "id": 2,
+    "question": "Câu lệnh MySQL nào được sử dụng để chọn dữ liệu từ cơ sở dữ liệu?",
+    "options": [
+      "GET",
+      "SELECT",
+      "OPEN",
+      "EXTRACT"
+    ],
+    "answer": "SELECT"
+  },
+  {
+    "id": 3,
+    "question": "Câu lệnh MySQL nào được sử dụng để cập nhật dữ liệu trong cơ sở dữ liệu?",
+    "options": [
+      "INSERT",
+      "SAVE",
+      "MODIFY",
+      "UPDATE"
+    ],
+    "answer": "UPDATE"
+  },
+  {
+    "id": 4,
+    "question": "Câu lệnh MySQL nào được sử dụng để xóa dữ liệu khỏi cơ sở dữ liệu?",
+    "options": [
+      "REMOVE",
+      "DELETE",
+      "COLLAPSE"
+    ],
+    "answer": "DELETE"
+  },
+  {
+    "id": 5,
+    "question": "Câu lệnh MySQL nào được sử dụng để chèn dữ liệu mới vào cơ sở dữ liệu?",
+    "options": [
+      "INSERT NEW",
+      "INSERT INTO",
+      "ADD NEW",
+      "ADD RECORD"
+    ],
+    "answer": "INSERT INTO"
+  },
+  {
+    "id": 6,
+    "question": "Với MySQL, làm thế nào để bạn chọn một cột có tên \"FirstName\" từ một bảng có tên \"Persons\"?",
+    "options": [
+      "EXTRACT FirstName FROM Persons",
+      "SELECT FirstName FROM Persons",
+      "SELECT Persons.FirstName"
+    ],
+    "answer": "SELECT FirstName FROM Persons"
+  },
+  {
+    "id": 7,
+    "question": "Với MySQL, làm thế nào để bạn chọn tất cả các cột từ một bảng có tên \"Persons\"?",
+    "options": [
+      "SELECT [all] FROM Persons",
+      "SELECT * FROM Persons",
+      "SELECT *.Persons",
+      "SELECT Persons"
+    ],
+    "answer": "SELECT * FROM Persons"
+  },
+  {
+    "id": 8,
+    "question": "Với MySQL, làm thế nào để bạn chọn tất cả các bản ghi từ một bảng có tên \"Persons\" nơi giá trị của cột \"FirstName\" là \"Peter\"?",
+    "options": [
+      "SELECT * FROM Persons WHERE FirstName<>'Peter'",
+      "SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'",
+      "SELECT [all] FROM Persons WHERE FirstName='Peter'",
+      "SELECT * FROM Persons WHERE FirstName='Peter'"
+    ],
+    "answer": "SELECT * FROM Persons WHERE FirstName='Peter'"
+  },
+  {
+    "id": 9,
+    "question": "Với MySQL, làm thế nào để bạn chọn tất cả các bản ghi từ một bảng có tên \"Persons\" nơi giá trị của cột \"FirstName\" bắt đầu bằng chữ \"a\"?",
+    "options": [
+      "SELECT * FROM Persons WHERE FirstName LIKE '%a'",
+      "SELECT * FROM Persons WHERE FirstName LIKE 'a%'",
+      "SELECT * FROM Persons WHERE FirstName='%a%'",
+      "SELECT * FROM Persons WHERE FirstName='a'"
+    ],
+    "answer": "SELECT * FROM Persons WHERE FirstName LIKE 'a%'"
+  },
+  {
+    "id": 10,
+    "question": "Toán tử OR hiển thị một bản ghi nếu BẤT KỲ điều kiện nào được liệt kê là đúng. Toán tử AND hiển thị một bản ghi nếu TẤT CẢ các điều kiện được liệt kê là đúng.",
+    "options": [
+      "False (Sai)",
+      "True (Đúng)"
+    ],
+    "answer": "True (Đúng)"
+  },
+  {
+    "id": 11,
+    "question": "Với MySQL, làm thế nào để bạn chọn tất cả các bản ghi từ một bảng có tên \"Persons\" nơi \"FirstName\" là \"Peter\" và \"LastName\" là \"Jackson\"?",
+    "options": [
+      "SELECT * FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'",
+      "SELECT * FROM Persons WHERE FirstName<>'Peter' AND LastName<>'Jackson'",
+      "SELECT FirstName='Peter', LastName='Jackson' FROM Persons"
+    ],
+    "answer": "SELECT * FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'"
+  },
+  {
+    "id": 12,
+    "question": "Với MySQL, làm thế nào để bạn chọn tất cả các bản ghi từ một bảng có tên \"Persons\" nơi \"LastName\" nằm trong khoảng theo thứ tự bảng chữ cái (và bao gồm cả) \"Hansen\" và \"Pettersen\"?",
+    "options": [
+      "SELECT LastName>'Hansen' AND LastName<'Pettersen' FROM Persons",
+      "SELECT * FROM Persons WHERE LastName>'Hansen' AND LastName<'Pettersen'",
+      "SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'"
+    ],
+    "answer": "SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'"
+  },
+  {
+    "id": 13,
+    "question": "Câu lệnh MySQL nào được sử dụng để chỉ trả về các giá trị khác biệt (không trùng lặp)?",
+    "options": [
+      "SELECT UNIQUE",
+      "SELECT DISTINCT",
+      "SELECT DIFFERENT"
+    ],
+    "answer": "SELECT DISTINCT"
+  },
+  {
+    "id": 14,
+    "question": "Từ khóa MySQL nào được sử dụng để sắp xếp tập kết quả (result-set)?",
+    "options": [
+      "ORDER",
+      "SORT",
+      "ORDER BY",
+      "SORT BY"
+    ],
+    "answer": "ORDER BY"
+  },
+  {
+    "id": 15,
+    "question": "Với MySQL, làm thế nào bạn có thể trả về tất cả các bản ghi từ bảng có tên \"Persons\" được sắp xếp giảm dần theo \"FirstName\"?",
+    "options": [
+      "SELECT * FROM Persons ORDER BY FirstName DESC",
+      "SELECT * FROM Persons SORT 'FirstName' DESC",
+      "SELECT * FROM Persons SORT BY 'FirstName' DESC",
+      "SELECT * FROM Persons ORDER FirstName DESC"
+    ],
+    "answer": "SELECT * FROM Persons ORDER BY FirstName DESC"
+  },
+  {
+    "id": 16,
+    "question": "Với MySQL, làm thế nào bạn có thể chèn một bản ghi mới vào bảng \"Persons\"?",
+    "options": [
+      "INSERT ('Jimmy', 'Jackson') INTO Persons",
+      "INSERT VALUES ('Jimmy', 'Jackson') INTO Persons",
+      "INSERT INTO Persons VALUES ('Jimmy', 'Jackson')"
+    ],
+    "answer": "INSERT INTO Persons VALUES ('Jimmy', 'Jackson')"
+  },
+  {
+    "id": 17,
+    "question": "Với MySQL, làm thế nào bạn có thể chèn \"Olsen\" làm \"LastName\" trong bảng \"Persons\"?",
+    "options": [
+      "INSERT ('Olsen') INTO Persons (LastName)",
+      "INSERT INTO Persons ('Olsen') INTO LastName",
+      "INSERT INTO Persons (LastName) VALUES ('Olsen')"
+    ],
+    "answer": "INSERT INTO Persons (LastName) VALUES ('Olsen')"
+  },
+  {
+    "id": 18,
+    "question": "Làm thế nào bạn có thể thay đổi \"Hansen\" thành \"Nilsen\" trong cột \"LastName\" ở bảng Persons?",
+    "options": [
+      "MODIFY Persons SET LastName='Hansen' INTO LastName='Nilsen",
+      "UPDATE Persons SET LastName='Nilsen' WHERE LastName='Hansen'",
+      "MODIFY Persons SET LastName='Nilsen' WHERE LastName='Hansen'",
+      "UPDATE Persons SET LastName='Hansen' INTO LastName='Nilsen'"
+    ],
+    "answer": "UPDATE Persons SET LastName='Nilsen' WHERE LastName='Hansen'"
+  },
+  {
+    "id": 19,
+    "question": "Với MySQL, làm thế nào bạn có thể xóa các bản ghi có \"FirstName\" là \"Peter\" trong bảng Persons?",
+    "options": [
+      "DELETE FirstName='Peter' FROM Persons",
+      "DELETE FROM Persons WHERE FirstName = 'Peter'",
+      "DELETE ROW FirstName='Peter' FROM Persons"
+    ],
+    "answer": "DELETE FROM Persons WHERE FirstName = 'Peter'"
+  },
+  {
+    "id": 20,
+    "question": "Với MySQL, làm thế nào bạn có thể trả về số lượng bản ghi trong bảng \"Persons\"?",
+    "options": [
+      "SELECT LEN(*) FROM Persons",
+      "SELECT NO(*) FROM Persons",
+      "SELECT COLUMNS(*) FROM Persons",
+      "SELECT COUNT(*) FROM Persons"
+    ],
+    "answer": "SELECT COUNT(*) FROM Persons"
+  },
+  {
+    "id": 21,
+    "question": "Các loại joins được hỗ trợ trong MySQL là gì?",
+    "options": [
+      "INNER JOIN, LEFT JOIN, RIGHT JOIN, CROSS JOIN",
+      "INNER JOIN, OUTER JOIN, LEFT JOIN, RIGHT JOIN"
+    ],
+    "answer": "INNER JOIN, LEFT JOIN, RIGHT JOIN, CROSS JOIN"
+  },
+  {
+    "id": 22,
+    "question": "Toán tử nào được sử dụng để chọn các giá trị nằm trong một khoảng cho trước?",
+    "options": [
+      "RANGE",
+      "UNION",
+      "BETWEEN",
+      "IN"
+    ],
+    "answer": "BETWEEN"
+  },
+  {
+    "id": 23,
+    "question": "Ràng buộc NOT NULL bắt buộc một cột không được chấp nhận các giá trị NULL.",
+    "options": [
+      "False (Sai)",
+      "True (Đúng)"
+    ],
+    "answer": "True (Đúng)"
+  },
+  {
+    "id": 24,
+    "question": "Toán tử nào được sử dụng để tìm kiếm một mẫu (pattern) cụ thể trong một cột?",
+    "options": [
+      "LIKE",
+      "FROM",
+      "GET"
+    ],
+    "answer": "LIKE"
+  },
+  {
+    "id": 25,
+    "question": "Câu lệnh MySQL nào được sử dụng để tạo một bảng cơ sở dữ liệu có tên là 'Customers'?",
+    "options": [
+      "CREATE TABLE Customers",
+      "CREATE DB Customers",
+      "CREATE DATABASE TAB Customers",
+      "CREATE DATABASE TABLE Customers"
+    ],
+    "answer": "CREATE TABLE Customers"
+  }
+]
