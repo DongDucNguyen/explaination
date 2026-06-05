@@ -52,6 +52,7 @@ const appState = {
   shuffleQuestions: true,
   shuffleAnswers: true,
   quizData: [],
+  baseQuestions: [],
   currentQuestionIndex: 0,
   userAnswers: {},
   timerInterval: null,
@@ -226,6 +227,36 @@ const createQuizScreenContainer = () => {
   return container;
 };
 
+const applyHardcorePenalty = () => {
+  if (appState.mode !== 'hardcore' || !appState.baseQuestions || appState.baseQuestions.length === 0) return;
+  
+  const penaltyCount = 5;
+  const newQuestions = [];
+  for (let i = 0; i < penaltyCount; i++) {
+    const q = appState.baseQuestions[Math.floor(Math.random() * appState.baseQuestions.length)];
+    // Make a shallow copy and shuffle its options if needed
+    const newQ = { ...q };
+    if (appState.shuffleAnswers) {
+      newQ.options = shuffleArray([...newQ.options]);
+    }
+    newQuestions.push(newQ);
+  }
+  
+  const current = appState.currentQuestionIndex;
+  let remaining = appState.quizData.slice(current + 1);
+  remaining = remaining.concat(newQuestions);
+  remaining = shuffleArray(remaining);
+  
+  appState.quizData = [...appState.quizData.slice(0, current + 1), ...remaining];
+  
+  const badge = document.getElementById('quiz-badge');
+  if (badge && !badge.innerHTML.includes('Phạt')) {
+    const penaltyMsg = document.createElement('span');
+    penaltyMsg.innerHTML = ' <span style="color:var(--error); font-weight: bold; animation: pulse-red 1s infinite;">(+5 Câu Phạt)</span>';
+    badge.appendChild(penaltyMsg);
+  }
+};
+
 const updateQuizScreen = (container) => {
   const t = translations[appState.language];
   const total = appState.quizData.length;
@@ -300,6 +331,9 @@ const updateQuizScreen = (container) => {
           Array.from(optionsContainer.children).forEach(b => {
             if (b.textContent === question.answer) b.classList.add('correct');
           });
+          if (appState.mode === 'hardcore') {
+            applyHardcorePenalty();
+          }
         }
         Array.from(optionsContainer.children).forEach(b => b.disabled = true);
       } else {
@@ -349,6 +383,10 @@ const updateQuizScreen = (container) => {
             if (b.textContent === question.answer) b.classList.add('correct');
           });
           newActionBtn.disabled = false;
+          
+          if (appState.mode === 'hardcore') {
+            applyHardcorePenalty();
+          }
           
           appState.timeoutNext = setTimeout(() => {
             newActionBtn.click();
@@ -428,6 +466,7 @@ const startQuiz = async () => {
     
     let baseQuestions = [];
     allResults.forEach(data => baseQuestions = baseQuestions.concat(data));
+    appState.baseQuestions = baseQuestions;
     
     let hardcoreQuestions = [...baseQuestions];
     while (hardcoreQuestions.length < 300) {
