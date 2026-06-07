@@ -225,10 +225,11 @@ button { font-family: inherit; }
 @keyframes spin { 100% { transform: rotate(360deg); } }
 @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
 @keyframes popIn { 0% { transform: scale(0.5); opacity: 0; } 80% { transform: scale(1.2); opacity: 1; } 100% { transform: scale(1); opacity: 1; } }
+@keyframes modalPopIn { 0% { transform: translate(-50%, -50%) scale(0.5); opacity: 0; } 80% { transform: translate(-50%, -50%) scale(1.1); opacity: 1; } 100% { transform: translate(-50%, -50%) scale(1); opacity: 1; } }
 @keyframes shake { 10%, 90% { transform: translate3d(-2px, 0, 0); } 20%, 80% { transform: translate3d(4px, 0, 0); } 30%, 50%, 70% { transform: translate3d(-6px, 0, 0); } 40%, 60% { transform: translate3d(6px, 0, 0); } }
 
 .fade-in-up { animation: fadeInUp 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) both; }
-@keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: none; } }
 
 .quiz-footer { display: flex; gap: 20px; }
 
@@ -394,6 +395,44 @@ body.hardcore-theme .review-ans.user-ans { background: rgba(239, 68, 68, 0.15); 
 body.hardcore-theme .review-ans.user-ans-correct { background: rgba(16, 185, 129, 0.15); border-color: #10b981; color: #6ee7b7; }
 
 /* RESPONSIVE DESIGN */
+@media (max-width: 1024px) {
+    .quiz-layout.has-aside {
+        grid-template-columns: 1fr;
+    }
+
+    .quiz-aside {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+        width: 90%;
+        max-width: 380px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        border-radius: 24px;
+        display: none;
+    }
+
+    .quiz-aside.active-modal {
+        display: block !important;
+        animation: modalPopIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .modal-overlay {
+        position: fixed;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 999;
+        display: none;
+        backdrop-filter: blur(4px);
+    }
+
+    .modal-overlay.active {
+        display: block;
+        animation: fadeIn 0.3s;
+    }
+}
+
 @media (max-width: 768px) {
     .container { padding: 0 16px 24px; }
     header { padding: 24px 16px; }
@@ -405,7 +444,10 @@ body.hardcore-theme .review-ans.user-ans-correct { background: rgba(16, 185, 129
     .result-actions button { max-width: 100%; }
     .toggle-switch { flex-direction: column; align-items: flex-start; gap: 20px; }
     .slider { align-self: flex-start; }
-    .quiz-aside { margin-top: 16px; }
+    
+    .quiz-aside.disabled:not(.active-modal) {
+        display: none;
+    }
 }
 
 @media (max-width: 480px) {

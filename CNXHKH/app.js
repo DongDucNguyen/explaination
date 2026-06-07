@@ -119,6 +119,22 @@ function setupEventListeners() {
     
     elements.btnPlayAgain.addEventListener('click', () => navigate('home-screen'));
     elements.btnReview.addEventListener('click', showReview);
+    
+    document.getElementById('btn-close-modal')?.addEventListener('click', (e) => {
+        e.preventDefault();
+        elements.wheelAside.classList.remove('active-modal');
+        document.getElementById('modal-overlay')?.classList.remove('active');
+        
+        applyPenaltyLogic(); // Apply penalty ONLY when user explicitly accepts it
+        
+        // Prevent ghost clicks on underlying elements
+        if (elements.btnNext) {
+            elements.btnNext.style.pointerEvents = 'none';
+            setTimeout(() => {
+                elements.btnNext.style.pointerEvents = 'auto';
+            }, 400);
+        }
+    });
 }
 
 // Navigation
@@ -503,12 +519,14 @@ function renderQuestion() {
         elements.wheelSubtitle.innerText = 'Đang chờ...';
         elements.penaltyWheel.style.transition = 'none';
         elements.penaltyWheel.style.transform = `rotate(0deg)`;
-        
         if ((state.mode === 'hardcore' || state.mode === 'extreme') && state.hardcorePenalty === 'auto5') {
             // Already hidden by CSS and JS layout logic
         } else {
             elements.penaltyWheel.parentElement.classList.remove('hidden');
         }
+        
+        elements.wheelAside.classList.remove('active-modal');
+        document.getElementById('modal-overlay')?.classList.remove('active');
     }
     
     document.getElementById('auto-penalty-msg').classList.add('hidden');
@@ -566,19 +584,16 @@ function updateNavButtons() {
     
     const isLast = state.currentIndex === state.questions.length - 1;
     const hasAnswered = state.answers[state.currentIndex] !== null;
+    const canProceed = hasAnswered || state.mode === 'exam';
     
-    if (hasAnswered || state.mode === 'exam') {
-        if (isLast && hasAnswered) {
-            elements.btnNext.classList.add('hidden');
-            elements.btnSubmit.classList.remove('hidden');
-        } else {
-            elements.btnNext.classList.remove('hidden');
-            elements.btnSubmit.classList.add('hidden');
-        }
-    } else {
-        // Hide next button if hasn't answered in practice/fun modes
+    if (isLast) {
         elements.btnNext.classList.add('hidden');
+        elements.btnSubmit.classList.remove('hidden');
+        elements.btnSubmit.disabled = !canProceed;
+    } else {
         elements.btnSubmit.classList.add('hidden');
+        elements.btnNext.classList.remove('hidden');
+        elements.btnNext.disabled = !canProceed;
     }
 }
 
@@ -610,6 +625,11 @@ function triggerWheelSequence() {
         applyPenaltyLogic();
         return;
     }
+    
+    elements.wheelAside.classList.add('active-modal');
+    document.getElementById('modal-overlay')?.classList.add('active');
+    document.getElementById('btn-close-modal')?.classList.remove('show-btn');
+    document.getElementById('btn-close-modal')?.classList.add('hidden');
     
     elements.wheelSubtitle.innerText = 'Oops! Đang quay hình phạt...';
     
@@ -650,20 +670,20 @@ function showWheelResult() {
         "JACKPOT! Cộng thêm 20 câu vào đề!"
     ];
     
-    elements.wheelSubtitle.innerText = 'Đã có kết quả!';
+    elements.wheelSubtitle.innerText = 'Đã có kết quả!';    
     elements.wheelResultText.innerText = msgs[currentPenaltyIndex];
     elements.wheelResultText.classList.remove('hidden');
     
-    applyPenaltyLogic();
+    // Hiện nút ngay lập tức (không có độ trễ)
+    document.getElementById('btn-close-modal')?.classList.remove('hidden');
+    document.getElementById('btn-close-modal')?.classList.add('show-btn');
 }
 
 function applyPenaltyLogic() {
     if (currentPenaltyIndex === 0) {
-        // Redo: clear answer, user has to wait briefly then it re-renders
-        setTimeout(() => {
-            state.answers[state.currentIndex] = null;
-            renderQuestion();
-        }, 2000); // 2s to read the "Làm lại" message before it disappears and starts timer again
+        // Redo: clear answer and re-render immediately (no auto-timeout)
+        state.answers[state.currentIndex] = null;
+        renderQuestion();
     } else {
         // Add questions
         let addCount = 0;

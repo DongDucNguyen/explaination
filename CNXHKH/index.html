@@ -6,7 +6,7 @@
     <title>Ôn Tập CNXHKH Pro</title>
     <!-- Đổi sang font Inter để đảm bảo không lỗi tiếng Việt -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=11">
+    <link rel="stylesheet" href="style.css?v=19">
 </head>
 <body>
     <!-- Animated Light Background Elements -->
@@ -237,6 +237,7 @@
 
             <!-- QUIZ SCREEN -->
             <section id="quiz-screen" class="screen">
+                <div class="modal-overlay" id="modal-overlay"></div>
                 <div class="quiz-layout">
                     
                     <!-- MAIN QUIZ AREA -->
@@ -272,7 +273,7 @@
                                 <span>Câu trước</span>
                             </button>
                             
-                            <button class="btn-primary" id="btn-next" style="margin-left: auto;">
+                            <button class="btn-primary" id="btn-next" style="margin-left: auto;" disabled>
                                 <span>Câu tiếp theo</span>
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                             </button>
@@ -283,7 +284,6 @@
                         </div>
                     </div>
 
-                    <!-- ASIDE WHEEL PANEL -->
                     <aside class="quiz-aside hidden" id="wheel-aside">
                         <div class="wheel-panel light-card">
                             <h2 class="wheel-title">Vòng quay Phạt</h2>
@@ -302,8 +302,10 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <div id="wheel-result-text" class="wheel-result hidden"></div>
+                            <div class="wheel-result hidden" id="wheel-result-text">Hình phạt: +5 câu!</div>
+                            <button class="btn-primary modal-close-btn hidden" id="btn-close-modal" style="margin-top: 16px; width: 100%;">
+                                <span>Chấp nhận hình phạt</span>
+                            </button>
                         </div>
                     </aside>
 
@@ -363,6 +365,6 @@
     </div>
 
     <!-- Script loading directly from JSON (Cache busted) -->
-    <script src="app.js?v=11"></script>
+    <script src="app.js?v=18"></script>
 </body>
 </html>
