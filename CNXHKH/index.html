@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ôn Tập CNXHKH Pro</title>
+    <!-- Đổi sang font Inter để đảm bảo không lỗi tiếng Việt -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=11">
+</head>
+<body>
+    <!-- Animated Light Background Elements -->
+    <div class="bg-animated">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <div id="app">
+        <!-- HEADER -->
+        <header>
+            <button id="btn-back-home" class="btn-icon hidden" aria-label="Về trang chủ">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M15 18L9 12L15 6" />
+                </svg>
+            </button>
+            <h1 class="app-title">CNXHKH Master</h1>
+            <div class="header-spacer"></div>
+        </header>
+
+        <!-- MAIN CONTAINER -->
+        <main class="container">
+            
+            <!-- HOME SCREEN -->
+            <section id="home-screen" class="screen active">
+                <div class="welcome-text">
+                    <span class="badge-new">Chế độ mới</span>
+                    <h2>Nền tảng Ôn luyện<br>Chủ nghĩa Xã hội Khoa học</h2>
+                    <p>Lựa chọn phương pháp luyện tập để bắt đầu.</p>
+                </div>
+                <div class="mode-cards-container">
+                    <!-- 2 Chế độ cơ bản -->
+                    <div class="mode-cards-row">
+                        <div class="light-card mode-card" id="card-practice">
+                            <div class="card-icon-wrapper practice-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/>
+                                    <path d="M6.5 2L6 20"/>
+                                </svg>
+                            </div>
+                            <h3>Luyện tập</h3>
+                            <p>Hiển thị kết quả ngay sau khi trả lời. Giúp củng cố kiến thức nhanh.</p>
+                            <div class="card-arrow">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            </div>
+                        </div>
+                        
+                        <div class="light-card mode-card" id="card-exam">
+                            <div class="card-icon-wrapper exam-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                            </div>
+                            <h3>Thi thử</h3>
+                            <p>Kiểm tra bao quát nhiều chương. Chỉ báo điểm khi nộp bài.</p>
+                            <div class="card-arrow">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3 Chế độ đặc biệt -->
+                    <div class="mode-cards-row">
+                        <div class="light-card mode-card" id="card-fun">
+                            <div class="card-icon-wrapper fun-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                            </div>
+                            <h3>Vui Vẻ</h3>
+                            <p><span style="font-size: 1.3rem; font-weight: 800; color: var(--fun-primary);">500 câu.</span> 15s/câu & Vòng quay hình phạt kịch tính.</p>
+                            <div class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+                        </div>
+
+                        <div class="light-card mode-card" id="card-hardcore">
+                            <div class="card-icon-wrapper hardcore-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                            </div>
+                            <h3 style="color: #dc2626;">Cường Độ Cao</h3>
+                            <p><span style="font-size: 1.3rem; font-weight: 800; color: #dc2626;">815 câu.</span> Áp lực thời gian & Hình phạt khắc nghiệt nhất.</p>
+                            <div class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+                        </div>
+                        
+                        <div class="light-card mode-card" id="card-extreme">
+                            <div class="card-icon-wrapper extreme-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+                            </div>
+                            <h3 style="background: linear-gradient(135deg, #ef4444, #f97316); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Căng Cực</h3>
+                            <p>Sinh tồn <span style="font-size: 1.3rem; font-weight: 800; background: linear-gradient(135deg, #ef4444, #f97316); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">1200 câu hỏi</span> liên tục. Áp dụng luật hình phạt tàn khốc.</p>
+                            <div class="card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PRACTICE CONFIG SCREEN -->
+            <section id="practice-config-screen" class="screen">
+                <div class="light-card config-card">
+                    <div class="config-header">
+                        <div class="icon-bubble">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/>
+                            </svg>
+                        </div>
+                        <h2>Cấu hình Luyện tập</h2>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Chọn Chương Cần Ôn</label>
+                        <div class="chapter-grid" id="practice-chapter-grid">
+                            <!-- Rendered by JS -->
+                        </div>
+                    </div>
+
+                    <div class="settings-group">
+                        <label class="toggle-switch">
+                            <div class="toggle-text">
+                                <span class="toggle-title">Xáo trộn câu hỏi</span>
+                                <span class="toggle-desc">Câu hỏi xuất hiện ngẫu nhiên</span>
+                            </div>
+                            <input type="checkbox" id="practice-shuffle-q">
+                            <span class="slider"></span>
+                        </label>
+                        <div class="divider"></div>
+                        <label class="toggle-switch">
+                            <div class="toggle-text">
+                                <span class="toggle-title">Xáo trộn đáp án</span>
+                                <span class="toggle-desc">Thay đổi vị trí A, B, C, D</span>
+                            </div>
+                            <input type="checkbox" id="practice-shuffle-a">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+
+                    <button class="btn-primary" id="btn-start-practice">
+                        <span>Bắt đầu Luyện tập</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
+            </section>
+
+            <!-- EXAM CONFIG SCREEN -->
+            <section id="exam-config-screen" class="screen">
+                <div class="light-card config-card">
+                    <div class="config-header">
+                        <div class="icon-bubble">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                        </div>
+                        <h2>Thiết lập Đề Thi</h2>
+                    </div>
+
+                    <p class="subtitle">Phân bổ số lượng câu hỏi cho mỗi chương</p>
+                    <div class="exam-chapter-list" id="exam-chapter-list">
+                        <!-- Rendered by JS -->
+                    </div>
+
+                    <div class="settings-group">
+                        <label class="toggle-switch">
+                            <div class="toggle-text">
+                                <span class="toggle-title">Xáo trộn câu hỏi</span>
+                                <span class="toggle-desc">Trộn lẫn câu hỏi giữa các chương</span>
+                            </div>
+                            <input type="checkbox" id="exam-shuffle-q" checked>
+                            <span class="slider"></span>
+                        </label>
+                        <div class="divider"></div>
+                        <label class="toggle-switch">
+                            <div class="toggle-text">
+                                <span class="toggle-title">Xáo trộn đáp án</span>
+                                <span class="toggle-desc">Thay đổi vị trí A, B, C, D</span>
+                            </div>
+                            <input type="checkbox" id="exam-shuffle-a" checked>
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+
+                    <div class="exam-summary">
+                        <div class="summary-box">
+                            <span class="summary-label">Tổng số câu trong đề</span>
+                            <span class="summary-value" id="exam-total-q">0</span>
+                        </div>
+                    </div>
+
+                    <button class="btn-primary" id="btn-start-exam">
+                        <span>Bắt đầu Thi thử</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
+            </section>
+
+            <!-- HARDCORE CONFIG SCREEN -->
+            <section id="hardcore-config-screen" class="screen">
+                <div class="light-card config-card hardcore-theme-card">
+                    <div class="config-header">
+                        <div class="icon-bubble hardcore-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                        </div>
+                        <h2 style="color: #dc2626;">Chế độ Cường Độ Cao</h2>
+                    </div>
+
+                    <p class="subtitle">Hãy chọn luật hình phạt cho mỗi lần sai hoặc quá giờ 15s:</p>
+                    
+                    <div class="settings-group">
+                        <label class="penalty-radio">
+                            <input type="radio" name="hardcore-penalty" value="auto5" checked>
+                            <div class="radio-content">
+                                <span class="toggle-title">Cộng thẳng 5 câu</span>
+                            </div>
+                        </label>
+                        <div class="divider"></div>
+                        <label class="penalty-radio">
+                            <input type="radio" name="hardcore-penalty" value="wheel">
+                            <div class="radio-content">
+                                <span class="toggle-title">Dùng Vòng Quay (Random)</span>
+                            </div>
+                        </label>
+                    </div>
+
+                    <button class="btn-primary" id="btn-start-hardcore" style="background: linear-gradient(135deg, #ef4444, #991b1b);">
+                        <span>Sẵn sàng chịu phạt!</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
+            </section>
+
+            <!-- QUIZ SCREEN -->
+            <section id="quiz-screen" class="screen">
+                <div class="quiz-layout">
+                    
+                    <!-- MAIN QUIZ AREA -->
+                    <div class="quiz-main">
+                        <!-- Timer Bar -->
+                        <div class="timer-container hidden" id="timer-container">
+                            <div class="timer-bar" id="timer-bar"></div>
+                        </div>
+
+                        <div class="quiz-header light-card-sm">
+                            <div class="quiz-meta">
+                                <div class="counter-badge" style="display: flex; align-items: center; gap: 8px;">
+                                    <span id="question-counter">1/1</span>
+                                    <span id="auto-penalty-msg" class="hidden" style="color: #ef4444; font-weight: 900; font-size: 1.1rem; animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);">+5 câu!</span>
+                                </div>
+                                <div class="mode-indicator" id="quiz-mode-badge">Luyện tập</div>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" id="progress-bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="question-card light-card">
+                            <h3 id="question-text">Câu hỏi sẽ hiển thị ở đây...</h3>
+                            <div class="options-container" id="options-container">
+                                <!-- Lựa chọn hiển thị bằng JS -->
+                            </div>
+                        </div>
+
+                        <div class="quiz-footer" style="display: flex; gap: 16px; align-items: center;">
+                            <button class="btn-secondary hidden" id="btn-prev">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                                <span>Câu trước</span>
+                            </button>
+                            
+                            <button class="btn-primary" id="btn-next" style="margin-left: auto;">
+                                <span>Câu tiếp theo</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            </button>
+                            <button class="btn-success hidden" id="btn-submit" style="margin-left: auto;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                                <span>Nộp bài & Xem điểm</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- ASIDE WHEEL PANEL -->
+                    <aside class="quiz-aside hidden" id="wheel-aside">
+                        <div class="wheel-panel light-card">
+                            <h2 class="wheel-title">Vòng quay Phạt</h2>
+                            <p class="wheel-subtitle" id="wheel-subtitle">Đang chờ...</p>
+                            
+                            <div class="wheel-box">
+                                <div class="wheel-pointer"></div>
+                                <div class="wheel" id="penalty-wheel">
+                                    <!-- Slices rendered via CSS conic-gradient -->
+                                    <div class="wheel-labels">
+                                        <span style="--i:0;">Làm lại</span>
+                                        <span style="--i:1;">+3 câu</span>
+                                        <span style="--i:2;">+5 câu</span>
+                                        <span style="--i:3;">+10 câu</span>
+                                        <span style="--i:4;">+20 câu</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="wheel-result-text" class="wheel-result hidden"></div>
+                        </div>
+                    </aside>
+
+                </div>
+            </section>
+
+            <!-- RESULT SCREEN -->
+            <section id="result-screen" class="screen">
+                <div class="light-card result-card">
+                    <div class="result-header">
+                        <h2>Tổng kết bài làm 🎉</h2>
+                        <p>Dưới đây là kết quả của bạn</p>
+                    </div>
+
+                    <div class="score-display">
+                        <div class="score-circle">
+                            <svg viewBox="0 0 36 36" class="circular-chart">
+                                <defs>
+                                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" stop-color="#4f46e5" />
+                                        <stop offset="100%" stop-color="#0ea5e9" />
+                                    </linearGradient>
+                                </defs>
+                                <path class="circle-bg"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <path class="circle" id="score-circle-path"
+                                    stroke-dasharray="0, 100"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                            </svg>
+                            <div class="score-text-wrapper">
+                                <span class="percentage" id="score-text">0%</span>
+                                <span class="score-fraction"><span id="score-correct">0</span> / <span id="score-total">0</span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="result-actions">
+                        <button class="btn-secondary" id="btn-review">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                            <span>Xem lại chi tiết</span>
+                        </button>
+                        <button class="btn-primary" id="btn-play-again">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 109-9 9.75 9.75 0 00-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+                            <span>Làm bài mới</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Script loading directly from JSON (Cache busted) -->
+    <script src="app.js?v=11"></script>
+</body>
+</html>

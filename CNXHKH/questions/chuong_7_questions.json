@@ -1,0 +1,802 @@
+[
+  {
+    "question": "Gia đình được hình thành bởi hai mối quan hệ cơ bản đó là…",
+    "options": [
+      "quan hệ họ hàng và quan hệ huyết thống",
+      "quan hệ hôn nhân và quan hệ họ hàng",
+      "quan hệ hôn nhân và quan hệ huyết thống",
+      "quan hệ huyết thống và quan hệ xã hội"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quan hệ nền tảng hình thành nên các mối quan hệ khác trong gia đình, là cơ sở pháp lý cho sự tồn tại của mỗi gia đình đó là quan hệ…",
+    "options": [
+      "hôn nhân",
+      "huyết thống",
+      "họ hàng",
+      "xã hội"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quan hệ giữa những người có cùng một dòng máu nảy sinh từ quan hệ hôn nhân là quan hệ…",
+    "options": [
+      "họ hàng",
+      "Họ tộc",
+      "Gia đình",
+      "huyết thống"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "Mối quan hệ tự nhiên, là yếu tố mạnh mẽ nhất gắn kết các thành viên trong gia đình với nhau đó là quan hệ…",
+    "options": [
+      "tình cảm",
+      "kinh tế",
+      "huyết thống",
+      "hôn Nhân"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quan hệ hôn nhân còn được gọi là quan hệ giữa…",
+    "options": [
+      "hai gia đình nhà trai và nhà gái",
+      "vợ và chồng",
+      "những người được pháp luật thừa nhận",
+      "những người cùng chung sống trong một gia đình"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quan hệ huyết thống trong gia đình chính là quan hệ giữa…",
+    "options": [
+      "cha mẹ và con cái",
+      "những người có họ hàng với nhau",
+      "những người chung một dòng họ",
+      "những người trong một gia đình"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Nghĩa vụ, quyền lợi và trách nhiệm của mỗi thành viên trong gia đình được quy định bởi…",
+    "options": [
+      "đạo đức xã hội",
+      "pháp luật của mỗi quốc gia",
+      "pháp lý và đạo lý",
+      "nền nếp gia đình"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quan hệ giữa cha mẹ nuôi và con nuôi chỉ được pháp luật công nhận khi…",
+    "options": [
+      "công bố rộng rãi với mọi người xung quanh",
+      "có đầy đủ thủ tục pháp lý",
+      "đã làm lễ gia tiên báo cáo với họ hàng",
+      "cả hai bên cha mẹ nuôi và con nuôi có nhu cầu sống cùng nhau"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Một cộng đồng người sống chung trong một không gian xác định thường được sử dụng ở góc độ quản lý nhân khẩu là nội dung thể hiện khái niệm…",
+    "options": [
+      "hộ gia đình",
+      "gia đình",
+      "dòng họ",
+      "dân tộc"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Gia đình tập thể là hình thức gia đình tồn tại trong hình thái kinh tế xã hội..",
+    "options": [
+      "cộng sản nguyên thủy",
+      "phong kiến",
+      "tư bản chủ nghĩa",
+      "cộng sản chủ nghĩa"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Gia đình mà những người chồng sống theo chế độ nhiều vợ và vợ của họ cũng sống theo chế độ nhiều chồng con cái là con chung của cả hai bên là đặc trưng của…",
+    "options": [
+      "gia đình hạt nhân",
+      "gia đình nhiều thế hệ",
+      "gia đình tập thể",
+      "gia đình cá thể"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Trong hình thức gia đình tập thể, việc xác định dòng dõi chủ yếu dựa vào…",
+    "options": [
+      "huyết thống của bố",
+      "huyết thống của mẹ",
+      "huyết thống của cả bố và mẹ",
+      "huyết thống của tất cả những người bố và tất cả những người mẹ trong gia đình"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quyền thừa kế tài sản trong gia đình tập thể căn cứ vào huyết thống của người mẹ bởi vì..",
+    "options": [
+      "mẹ là người sinh ra con cái",
+      "người phụ nữ có địa vị cao nhất trong gia đình",
+      "người phụ nữ rất được tôn trọng",
+      "không biết chính xác ai là cha đẻ của đứa con"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "Đặc điểm nổi bật của gia đình tập thể là…",
+    "options": [
+      "phụ quyền dựa trên cơ sở kinh tế tập thể kinh tế gia đình cộng sản",
+      "phụ quyền dựa trên cơ sở kinh tế tư nhân",
+      "mẫu quyền dựa trên cơ sở kinh tế tập thể gia đình cộng sản",
+      "mẫu quyền dựa trên cơ sở kinh tế cá nhân"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "sự xuất hiện của chế độ tư hữu và lao động của nam giới ngày càng được đề cao trong xã hội là nguyên nhân dẫn tới…",
+    "options": [
+      "gia đình tập thể",
+      "gia đình cá thể",
+      "gia đình nhiều thế hệ",
+      "gia đình hai thế hệ"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Theo quan điểm của C.Mác và Ph.Ăngghen, gia đình một vợ một chồng dựa trên quyền thống trị của người chồng nhằm chủ đích là làm cho con cái sinh ra phải có cha đẻ rõ ràng không ai tranh cãi được và sự rõ ràng ấy là cần thiết vì những người con đó sau này sẽ được hưởng tài sản của cha với tư cách là…",
+    "options": [
+      "người con chính thống",
+      "người con nối dõi",
+      "người thừa kế trực tiếp",
+      "người thừa kế gián tiếp"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Nội dung nào dưới đây không phản ánh đúng vị trí của gia đình trong xã hội…",
+    "options": [
+      "gia đình là tế bào của xã hội",
+      "gia đình là tổ ấm của mỗi thành viên",
+      "gia đình là cầu nối giữa cá nhân với xã hội",
+      "gia đình là bộ phận của làng xã"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "Nhận định nào dưới đây thể hiện đúng nhất vị trí của gia đình đối với sự vận động và phát triển của xã hội…",
+    "options": [
+      "gia đình có vai trò quan trọng đối với sự tồn tại vận động và phát triển của xã hội",
+      "gia đình có vai trò quyết định đối với sự tồn tại vận động và phát triển của xã hội",
+      "gia đình có vai trò không nhỏ đối với sự tồn tại vận động và phát triển của xã hội",
+      "gia đình có vai trò nhất định đối với sự tồn tại vận động và phát triển của xã hội"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Gia đình không chỉ sản xuất ra tư liệu sinh hoạt mà còn sản xuất ra…",
+    "options": [
+      "bản thân con người",
+      "các mối quan hệ xã hội",
+      "các giá trị kinh tế",
+      "các giá trị tinh thần"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Gia đình như một tế bào tự nhiên là đơn vị cơ sở để tạo nên cơ thể xã hội vì…",
+    "options": [
+      "gia đình sản xuất ra tư liệu tiêu dùng tư liệu sản xuất và các mối quan hệ xã hội khác",
+      "gia đình sản xuất ra tư liệu sản xuất tái sản xuất ra con người và các mối quan hệ xã hội khác",
+      "gia đình sản xuất ra tư liệu tiêu dùng, tư liệu sản xuất, tái sản xuất ra con người",
+      "gia đình tái sản xuất ra con người và các mối quan hệ xã hội"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Chủ tịch Hồ Chí Minh đã từng khẳng định, hạt nhân của xã hội chính là…",
+    "options": [
+      "các thành viên trong gia đình",
+      "các hộ gia đình",
+      "hộ gia đình",
+      "gia đình"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "Môi trường tốt nhất để mỗi cá nhân được yêu thương, nuôi dưỡng, chăm sóc, trưởng thành phát triển là…",
+    "options": [
+      "gia đình",
+      "Nhà trường",
+      "dòng họ",
+      "gia đình"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Cộng đồng xã hội đầu tiên đáp ứng nhu cầu quan hệ xã hội của mỗi cá nhân là…",
+    "options": [
+      "làng xóm",
+      "trường học",
+      "họ hàng",
+      "gia đình"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "Nội dung nào dưới đây KHÔNG là chức năng cơ bản của gia đình…",
+    "options": [
+      "tái sản xuất ra con người",
+      "nuôi dưỡng giáo dục",
+      "xây dựng quy định của địa phương",
+      "kinh tế và tổ chức tiêu dùng"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Chức năng đặc thù của gia đình không một cộng đồng nào có thể thay thế là…",
+    "options": [
+      "nuôi dưỡng giáo dục",
+      "tái sản xuất ra con người",
+      "kinh tế và tổ chức tiêu dùng",
+      "thỏa mãn nhu cầu tâm sinh lý duy trì tình cảm gia đình"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Không chỉ đáp ứng nhu cầu tâm sinh lý tự nhiên của con người đáp ứng nhu cầu nòi giống của gia đình dòng họ mà còn đáp ứng nhu cầu về sức lao động và duy trì sự trường tồn của xã hội là nội dung thể hiện chức năng nào của gia đình…",
+    "options": [
+      "thỏa mãn nhu cầu tâm sinh lý duy trì tình cảm gia đình",
+      "kinh tế và tổ chức tiêu dùng",
+      "tái sản xuất ra con người",
+      "nuôi dưỡng giáo dục"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Việc thực hiện chức năng tái sản xuất ra con người không chỉ là việc riêng của gia đình mà là vấn đề xã hội vì thực hiện chức năng này quyết định…",
+    "options": [
+      "quy mô dân số, mật độ dân cư, chất lượng cuộc sống người lao động",
+      "tỷ lệ gia tăng dân số chất lượng nguồn lao động của mỗi quốc gia",
+      "quy mô dân số, mật độ dân cư, chất lượng nguồn lao động",
+      "mật độ dân cư, chất lượng nguồn lao động của mỗi quốc gia"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Chức năng nào dư ới đây thể hiện tình cảm thiêng liêng trách nhi ệm của cha mẹ với con cái đồng thời thể hiện trách nhiệm của gia đình với xã hội…",
+    "options": [
+      "thỏa mãn nhu cầu tâm sinh lý duy trì tình cảm gia đình",
+      "kinh tế và tổ chức tiêu dùng",
+      "tái sản xuất ra con người",
+      "nuôi dưỡng giáo dục"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "Chức năng nào dưới đây của gia đình có ý nghĩa rất quan trọng tới việc hình thành nhân cách đạo đức lối sống của mỗi người…",
+    "options": [
+      "nuôi dưỡng giáo dục",
+      "thỏa mãn nhu cầu tâm sinh lý duy trì tình cảm gia đình",
+      "kinh tế và tổ chức tiêu dùng",
+      "tái sản xuất ra con người"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Gia đình thực hiện chức năng nào dưới đây để góp phần to lớn vào việc đào tạo thế hệ trẻ nâng cao chất lượng nguồn lao động…",
+    "options": [
+      "thỏa mãn nhu cầu tâm sinh lý duy trì tình cảm gia đình",
+      "kinh tế và tổ chức tiêu dùng",
+      "nuôi dưỡng, giáo dục",
+      "tái sản xuất ra con người"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Thực hiện chức năng nào dưới đây của gia đình đòi hỏi cha mẹ phải có kiến thức cơ bản, tương đối toàn diện về mọi mặt?",
+    "options": [
+      "Thoả mãn nhu cầu tâm, sinh lí, duy trì tình cảm gia đình.",
+      "Kinh tế và tổ chức tiêu dừng.",
+      "Tái sản xuất ra con người.",
+      "Nuôi dưỡng, giáo dục."
+    ],
+    "answer": 4
+  },
+  {
+    "question": "Xét ở chức năng kinh tế và tổ chức tiêu dùng, gia đình có đặc thù nào dưới đây mà các đơn vị kinh tế khác không có được?",
+    "options": [
+      "Tham gia trực tiếp vào quá trình sản xuất, tái sản xuất ra tư liệu lao động.",
+      "Tham gia vào quá trình sản xuất và tái sản xuất ra sức lao động.",
+      "Tham gia trực tiếp vào quá trình sản xuất, tái sản xuất ra tư liệu sản xuất.",
+      "Tham gia trực tiếp vào quá trình sản xuất, tái sản xuất ra tư liệu tiêu dùng."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Việc sử dụng hợp lí các kho ản thu nhập vào việc đảm bảo đời sống vật chất và tinh thần của mỗi thành viên, cùng với việc sử dụng quỹ thời gian rảnh rỗi để tạo nên đời sống tinh thần, thể chất lành manh là nội dung của chức năng…",
+    "options": [
+      "tổ chức tiêu dùng của gia đình.",
+      "tổ chức sản xuất của gia đình.",
+      "tổ chức đời sống tinh thần của gia đình.",
+      "tổ chức các mối quan hệ xã hội của gia đình."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Gia đình đảm bảo nguồn sống, đáp ứng nhu cầu vật chất, tinh thần của các thành viên trong gia đình là nội dung của chức năng…",
+    "options": [
+      "đảm bảo đời sống vật chất và tinh thần.",
+      "kinh tế và tổ chức tiêu dùng.",
+      "thoả mãn mọi mặt đời sống gia đình.",
+      "nuôi dưỡng, giáo dục."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Chức năng nào dưới đây tạo cho gia đình cơ cơ sở để tổ chức tốt đời sống, nuôi dạy con cái, đóng góp to lớn đối với sự phát triển xã hội?",
+    "options": [
+      "Đảm bảo đời sống gia đình và phát triển xã hội.",
+      "Thoả mãn nhu cầu tâm - sinh lí, duy trì tình cảm gia đình.",
+      "Nuôi dưỡng, giáo dục.",
+      "Kinh tế và tổ chức tiêu dùng."
+    ],
+    "answer": 4
+  },
+  {
+    "question": "Chức năng nào dư ới đây của gia đình có nhi ệm vụ thoả mãn nhu cầu tình cảm, văn hoá, tinh thần cho các thành viên, đảm bảo sự cân bằng tâm lí, bảo vệ chăm sóc sức khoẻ người ốm, người già, trẻ em?",
+    "options": [
+      "Thoả mãn nhu cầu tâm - sinh lí",
+      "Thoả mãn nhu cầu tình cảm, đời sống vật chất.",
+      "Thoả mãn nhu cầu tâm - sinh lí, duy trì tình cảm gia đình.",
+      "Thoả mãn đời sống vật chất và tinh thần."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Cơ sở kinh tế - xã hội để xây dựng gia đình trong thời kì quá độ lên chủ nghĩa xã hội là sự phát triển của…",
+    "options": [
+      "lực lượng sản xuất và quan hệ sản xuất xã hội chủ nghĩa.",
+      "nền kinh tế nhiều thành phần, định hướng xã hội chủ nghĩa.",
+      "nền kinh tế thị trường định hướng xã hội chủ nghĩa.",
+      "lực lượng sản xuất gắn với công cụ lao động hiện đại."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Ý nào dưới đây là nguyên nhân sâu xa gây nên tình trạng thống trị của người đàn ông trong gia đình, sự bất bình đẳng nam nữ, giữa vợ và chồng, sự nô dịch với phụ nữ?",
+    "options": [
+      "Chế độ công hữu về tư liệu sản xuất.",
+      "Chế độ đa thê.",
+      "Chế độ tư hữu về tư liệu sản xuất.",
+      "Chế độ một vợ một chồng."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Sự thống trị của người đàn ông trong gia đình là kết quả của…",
+    "options": [
+      "sự thống trị của họ về kinh tế.",
+      "sự thống trị của họ về văn hoá.",
+      "những quy định trong gia đình.",
+      "những hủ tục lạc hậu."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Việc thiết lập chính quyền nhà nước của giai cấp công nhân và nhân dân lao động nhằm xây dựng gia đình trong thời kì quá độ lên chủ nghĩa xã hội là nội dung của cơ sở…",
+    "options": [
+      "văn hoá.",
+      "chính trị.",
+      "xã hội.",
+      "kinh tế."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Ở Việt Nam, tổ chức nào dưới đây là công cụ hữu hiệu nhất xoá bỏ những hủ tục lạc hậu, giải phóng phụ nữ và bảo vệ hạnh phúc gia đình?",
+    "options": [
+      "Đảng Cộng sản.",
+      "Hội Liên hiệp Phụ nữ.",
+      "Đoàn Thanh niên Cộng sản.",
+      "Nhà nước."
+    ],
+    "answer": 4
+  },
+  {
+    "question": "Nội dung nào dưới đây thể hiện rõ nhất vai trò của nhà nước xã hội chủ nghĩa trong việc đảm bảo lợi ích công dân, lợi ích của các thành viên trong gia đinh, đảm bảo sự bình đẳng giới, chính sách dân số?",
+    "options": [
+      "Phát triển kinh tế.",
+      "Ổn định tình hình chính trị-xã hội.",
+      "Xây dựng hệ thống pháp luật và hệ thống chính sách xã hội.",
+      "Xây dựng hệ thống pháp luật và nâng cao đời sống tinh thần."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Phát triển lực lượng sản xuất và quan hệ sản xuất tương ứng - quan hệ sản xuất mới xã hội chủ nghĩa là cơ sở để xây dựng gia đình trong thời kì quá độ lên chủ nghĩa xã hội ở lĩnh vực nào dưới đây?",
+    "options": [
+      "Chính trị - xã hội.",
+      "Văn hoá.",
+      "Tâm lí.",
+      "Kinh tế - xã hội."
+    ],
+    "answer": 4
+  },
+  {
+    "question": "Hôn nhân tự nguyện, một vợ một chồng bình đẳng, được đảm bảo về pháp lí là biểu hiện của…",
+    "options": [
+      "chế độ hôn nhân tiến bộ.",
+      "hôn nhân được pháp luật thừa nhận.",
+      "hôn nhân tự nguyện.",
+      "hôn nhân bình đẳng."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hôn nhân tự nguyện là hôn nhân xuất phát từ…",
+    "options": [
+      "tình yêu.",
+      "sự thoả mãn về kinh tế.",
+      "sự đồng ý của bố mẹ hai bên.",
+      "sự ủng hộ của những người xung quanh."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Nam nữ được đảm bảo quyền tự do trong việc lựa chọn người kết hôn là biểu hiện của…",
+    "options": [
+      "hôn nhân bình đẳng.",
+      "hôn nhân tự nguyện.",
+      "hôn nhân được pháp luật thừa nhận.",
+      "hôn nhân tích cực."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Nguyên nhân nào sau đây giữ vai trò quyết định nhất tới sự xuất hiện của hôn nhân một vợ một chồng trong lịch sử xã hội loài người?",
+    "options": [
+      "Sự thắng lợi của những tư tưởng tiến bộ.",
+      "Sự thắng lợi của chế độ tư hữu đối với chế độ công hữu nguyên thuỷ.",
+      "Sự xuất hiện của các tổ chức bảo vệ quyền lợi của người phụ nữ.",
+      "Vị trí, vai trò của người phụ nữ trong xã hội được thừa nhận."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Vợ và chồng đều có quyền lợi và nghĩa vụ như nhau về mọi vấn đề của cuộc sống gia đình là biểu hiện của…",
+    "options": [
+      "hôn nhân tự nguyện.",
+      "tình yêu.",
+      "vợ chồng bình đẳng.",
+      "tự do kết hôn."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Hôn nhân được đảm bảo về mặt pháp lí là hôn nhân…",
+    "options": [
+      "được tổ chức với sự chứng kiến của mọi người.",
+      "tự nguyện trên cơ sở tình yêu nam nữ.",
+      "được hai bên gia đình đồng ý.",
+      "được pháp luật thừa nhận thông qua việc đăng kí kết hôn."
+    ],
+    "answer": 4
+  },
+  {
+    "question": "Yếu tố nào dưới đây giữ vai trò quyết định tới việc thúc đẩy tăng trưởng về kinh tế, tăng thu nhập của cá nhân, là cơ sở cho việc củng cố và duy trì bền vững của gia đình ở Việt Nam?",
+    "options": [
+      "Trình độ dân trí ngày càng được nâng cao, nghề nghiệp ngày càng đa dạng.",
+      "Tình cảm gắn bó giữa các thành viên trong gia đình, mọi người đều có công việcổn định.",
+      "Nền kinh tế thị trường định hướng xã hội chủ nghĩa ngày càng phát triển.",
+      "Con cái được học hành đầy đủ, các thành viên đều được tạo điều kiện phát triển, cơ hội việc làm ngày càng cao."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Biểu hiện nào dưới đây không là tác động tiêu cực của kinh tế thị trường định hướng xã hội chủ nghĩa tới gia đình ở Việt Nam?",
+    "options": [
+      "Sự phân hoá giàu nghèo giữa các gia đình ngày càng tăng.",
+      "Tăng thu nhập của cá nhân trong gia đình.",
+      "Ngoại tình, li hôn có chiều hướng ngày càng phát triển.",
+      "Trẻ em nghỉ học sớm, tham gia vào thị trường lao động."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Nội dung nào dưới đây là mục tiêu về xây dựng gia đình mà Đại hội đại biểu toàn quốc lần thứ XII của Đảng Cộng sản Việt Nam đã đề ra?",
+    "options": [
+      "Xây dựng gia đình hạnh phúc, kinh tế phát triển.",
+      "Xây dựng gia đình no ấm, tiến bộ, hạnh phúc, văn minh.",
+      "Xây dựng gia đình bình đẳng, hạnh phúc, no ấm, tiến bộ, văn minh.",
+      "Xây dựng gia đình ấm no, tự do, hạnh phúc."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Nội dung nào dưới đây là mục tiêu mà “Chiến lược phát triển gia đình Việt Nam đến năm 2020, tầm nhìn 2030” đã đề ra?",
+    "options": [
+      "Xây dựng gia đình Việt Nam kinh tế no ấm, văn minh, tiến bộ, hạnh phúc, thực sự là tổ ấm của mỗi người, là tế bào lành mạnh của xã hội.",
+      "Xây dựng gia đình Việt Nam bình đẳng, tiến bộ, hạnh phúc, thực sự là tổ ấm của mỗi người, là tế bào lành mạnh của xã hội.",
+      "Xây dựng gia đình Việt Nam no ấm, tiến bộ, hạnh phúc, thực sự là tổ ấm của mỗi người, là tế bào lành mạnh của xã hội.",
+      "Xây dựng gia đình Việt Nam no ấm, tiến bộ, hạnh phúc, thực sự là tổ ấm của mỗi người."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Ngày Gia đình Việt Nam là ngày…",
+    "options": [
+      "28/5.",
+      "26/6.",
+      "26/8.",
+      "28/6."
+    ],
+    "answer": 4
+  },
+  {
+    "question": "Luật Hôn nhân và Gia đình ban hành năm 2000 ở Việt Nam được sửa đổi vào năm…",
+    "options": [
+      "2007.",
+      "2012.",
+      "2014.",
+      "2015."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Luật Phòng, chống bạo lực gia đình hiện hành của Việt Nam có hiệu lực thi hành năm…",
+    "options": [
+      "2006.",
+      "2007.",
+      "2008.",
+      "2009."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "“Gia đình đơn” còn được gọi bằng tên nào dưới đây?",
+    "options": [
+      "Gia đình tập thể.",
+      "Gia đình hạt nhân.",
+      "Gia đình ba thế hệ.",
+      "Gia đình nhiều thế hệ."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Gia đình có ba thế hệ cùng chung sống dưới một mái nhà được gọi là…",
+    "options": [
+      "gia đình tập thể.",
+      "tứ đại đồng đường.",
+      "tam đại đồng đường.",
+      "gia đình hạt nhân."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Gia đình có bốn thế hệ cùng chung sống dưới một mái nhà được gọi là…",
+    "options": [
+      "tứ đại đồng đường.",
+      "gia đình hạt nhân.",
+      "tam đại đồng đường.",
+      "ngũ đại đồng đường."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quy mô gia đình Việt Nam hiện nay có xu hướng…",
+    "options": [
+      "ngày càng đa dạng.",
+      "ngày càng nhiều thế hệ.",
+      "ngày càng thu nhỏ.",
+      "ngày càng phức tạp."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Loại hình gia đình phổ biến nhất ở Việt Nam hiện nay là…",
+    "options": [
+      "gia đình hạt nhân.",
+      "tam đại đồng đường.",
+      "tứ đại đồng đường.",
+      "gia đình đơn thân."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Để đảm bảo lợi ích của gia đình và sự phát triển bền vững của xã hội, thông điệp mới trong kế hoạch hoá gia đình của Việt Nam hiện nay là…",
+    "options": [
+      "mỗi gia đình chỉ nên có từ 1 đến 2 con.",
+      "mỗi gia đình nên sinh đủ 2 con.",
+      "mỗi gia đình chỉ nên sinh 1 con.",
+      "gia đình có điều kiện nuôi dưỡng có thể sinh 3 con."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Biểu hiện nào dưới đây thể hiện đầy đủ nhất sự tiến bộ trong việc thực hiện chức năng tái sản xuất ra con người của gia đình Việt Nam hiện nay?",
+    "options": [
+      "Giảm mức sinh của phụ nữ, tăng số con mong muốn, không nhất định phải có con trai.",
+      "Giảm nhu cầu nhất thiết phải có con trai, người phụ nữ không nhất định phải sinh con.",
+      "Tăng số con mong muốn, giảm nhu cầu nhất thiết phải có con trai.",
+      "Giảm mức sinh của phụ nữ, giảm số con mong muốn, giảm nhu cầu nhất thiết phải có con trai."
+    ],
+    "answer": 4
+  },
+  {
+    "question": "Từ một đơn vị kinh tế khép kín sản xuất để đáp ứng nhu cầu của gia đình thành đơn vị mà sản xuất chủ yếu để đáp ứng nhu cầu của người khác hay của xã hội là biểu hiện của sự biến đổi trong gia đình về chức năng…",
+    "options": [
+      "kinh tế và tổ chức tiêu dùng.",
+      "tổ chức tiêu dùng.",
+      "sản xuất.",
+      "chính trị - xã hội."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Trong kinh tế thị trường hiện đại, nguyên nhân cơ bản nhất dẫn đến kinh tế gia đình gặp rất nhiều khó khăn, trở ngại trong việc chuyển hướng sản xuất kinh doanh hàng hoá theo hướng chuyên sâu là do…",
+    "options": [
+      "trình độ của người lao động còn thấp, kinh tế gia đình quy mô lớn, khó quản lí.",
+      "người lao động vẫn mang tác phong nông nghiệp, tư duy tiểu nông, kinh nghiệm quản lí còn hạn chế.",
+      "cơ chế quản lí còn nhiều bất cập, thủ tục hành chính còn phức tạp.",
+      "kinh tế gia đình phần lớn có quy mô nhỏ, lao động ít và tự sản xuất là chính."
+    ],
+    "answer": 4
+  },
+  {
+    "question": "Nguyên nhân nào dưới đây giữ vai trò quyết định làm cho gia đình trở thành một đơn vị tiêu dùng quan trọng của xã hội?",
+    "options": [
+      "Chi tiêu hợp lí, tăng cường tiết kiệm, nguồn thu nhập bằng tiền của gia đình ngày càng eo hẹp.",
+      "Sự phát triển của kinh tế hàng hoá và nguồn thu nhập bằng tiền của gia đình ngày càng tăng lên.",
+      "Hàng hoá ngày càng phong phú, đa dạng, đáp ứng tốt yêu cầu của người tiêu dùng.",
+      "Sản xuất hàng hoá phát triển, giao thương được đẩy mạnh, nguồn tiền cho chi dùng hàng ngày có chiều hướng tăng lên."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Giáo dục trong gia đình Việt Nam hiện nay bao gồm giáo dục đạo đức, giáo dục kiến thức khoa học hiện đại, trang bị công cụ để con cái hoà nhập với thế giới là nội dung thể hiện tính chất nào trong nội dung giáo dục của gia đình Việt Nam hiện nay?",
+    "options": [
+      "Tính lịch sử.",
+      "Tính logic.",
+      "Tính toàn diện.",
+      "Tính phiến diện."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Nội dung nào dưới đây mô tả đầy đủ nhất về những hạn chế trong quan hệ quan hệ vợ chồng ở Việt Nam hiện nay?",
+    "options": [
+      "Thiếu bình đẳng, vai trò của người phụ nữ chưa thực sự được thừa nhận.",
+      "Lỏng lẻo, bất bình đẳng trong quan hệ vợ, chồng vẫn diễn ra ở nhiều gia đình.",
+      "Lỏng lẻo, bạo lực gia đình ngày càng tăng, tỉ lệ li hôn ngày càng cao.",
+      "Lỏng lẻo, gia tăng tỉ lệ li hôn, li thân, ngoại tình, chung sống không kết hôn."
+    ],
+    "answer": 4
+  },
+  {
+    "question": "Hiện nay, nguy cơ nào dưới đây là phổ biến nhất mà người cao tuổi trong gia đình ở Việt Nam phải đối mặt?",
+    "options": [
+      "Thiếu thốn về vật chất.",
+      "Thiếu thốn về thời gian.",
+      "Thiếu thốn về tình cảm.",
+      "Thiếu thốn về các sản phẩm giải trí."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Nội dung nào dưới đây không phải là phương hướng cơ bản xây dựng và phát triển gia đình Việt Nam trong thời ki quá độ lên chủ nghĩa xã hội?",
+    "options": [
+      "Tăng cường sự lãnh đạo của Đảng, nâng cao nhận thức của xã hội về xây dựng và phát triển gia đinh Việt Nam.",
+      "Đẩy mạnh phát triển kinh tế - xã hội, nâng cao đời sống vật chất, kinh tế hộ gia đình.",
+      "Tiếp tục phát triển và nâng cao chất lượng phong trào xây dựng gia đình văn hoá.",
+      "Tăng cường vai trò của các tổ chức tổ chức quốc tế nhằm giáo dục thanh niên về xây dựng gia đình hạnh phúc."
+    ],
+    "answer": 4
+  },
+  {
+    "question": "Gia đình ấm no, hoà thuận, tiến bộ, khoẻ mạnh và hạnh phúc, thực hiện tốt nghĩa vụ công dân, thực hiện kế hoạch hoá gia đình, đoàn kết tương trợ trong cộng đồng dân cư là tiêu chuẩn của …",
+    "options": [
+      "gia đình truyền thống.",
+      "gia đình văn hoá.",
+      "gia đình giàu có.",
+      "gia đình hiện đại."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Gia đình tập thể tồn tại trong chế độ xã hội nào?",
+    "options": [
+      "Nguyên thủy",
+      "Chiếm hữu nô lệ",
+      "Phong kiến",
+      "Tư bản chủ nghĩa"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Gia đình cá thể bắt đầu xuất hiện trong xã hội nào?",
+    "options": [
+      "Nguyên thủy",
+      "Chiếm hữu nô lệ",
+      "Phong kiến",
+      "Tư bản chủ nghĩa"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Điền từ thích hợp vào (…): Theo Hồ Chí Minh, “Nếu không giải phóng (…) là xây dựng chủ nghĩa xã hội chỉ một nửa”.",
+    "options": [
+      "Phụ nữ",
+      "Đàn ông",
+      "Con người",
+      "Cá nhân"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Chỉ ra luận điểm đúng về gia đình?",
+    "options": [
+      "Gia đình là một cộng đồng xã hội đặc biệt, tồn tại lâu dài trong lịch sử xã hội.",
+      "Gia đình là một cộng đồng xã hội đặc biệt, chỉ tồn tại trong một giai đoạn lịch sử nhất định.",
+      "Gia đình là một tổ chức trong hệ thống chính trị cơ sở.",
+      "Gia đình là cầu nối giữa các bộ phận trong hệ thống chính trị cơ sở."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Cơ sở hình thành nên gia đình là gì?",
+    "options": [
+      "Quan hệ hôn nhân.",
+      "Quan hệ văn hóa.",
+      "Quan hệ chính trị.",
+      "Quan hệ xã hội."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Yếu tố nào quyết định nhất đến sự ra đời gia đình một vợ một chồng?",
+    "options": [
+      "Chế độ tư hữu về tư liệu sản xuất.",
+      "Chế độ hôn nhân tiến bộ.",
+      "Nhu cầu phát triển của sản xuất hàng hóa.",
+      "Nhu cầu phát triển của sản xuất tự cấp, tự túc."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Đặc điểm của hình thức gia đình tập thể là gì?",
+    "options": [
+      "Chế độ mẫu hệ.",
+      "Chế độ phụ hệ.",
+      "Chế độ tư hữu.",
+      "Chế độ bóc lột"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Yếu tố nào quyết định nhất đến sự thay thế các hình thức gia đình trong lịch sử?",
+    "options": [
+      "Yếu tố kinh tế.",
+      "Yếu tố chính trị.",
+      "Yếu tố văn hóa.",
+      "Yếu tố tâm linh."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Chức năng nào là đặc thù của gia đình?",
+    "options": [
+      "Chức năng tái sản xuất ra con người.",
+      "Chức năng giáo dục và xã hội hóa.",
+      "Chức năng đối nội.",
+      "Chức năng đối ngoại."
+    ],
+    "answer": 1
+  }
+]
