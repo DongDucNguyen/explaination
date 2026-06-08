@@ -674,9 +674,15 @@ function showWheelResult() {
     elements.wheelResultText.innerText = msgs[currentPenaltyIndex];
     elements.wheelResultText.classList.remove('hidden');
     
-    // Hiện nút ngay lập tức (không có độ trễ)
-    document.getElementById('btn-close-modal')?.classList.remove('hidden');
-    document.getElementById('btn-close-modal')?.classList.add('show-btn');
+    // Phân nhánh logic Desktop / Mobile
+    if (window.innerWidth <= 1024) {
+        // Mobile & Tablet: Hiển thị nút "Chấp nhận hình phạt" để người dùng bấm
+        document.getElementById('btn-close-modal')?.classList.remove('hidden');
+        document.getElementById('btn-close-modal')?.classList.add('show-btn');
+    } else {
+        // Desktop: Áp dụng hình phạt ngay lập tức để nút "Câu tiếp theo" sáng lên luôn
+        applyPenaltyLogic();
+    }
 }
 
 function applyPenaltyLogic() {
